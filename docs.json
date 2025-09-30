@@ -2,6 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "XMAQUINA",
+  "typography": {
+    "font": "Manrope"
+  },
   "colors": { 
     "primary": "#16A34A", 
     "light": "#07C983", 
