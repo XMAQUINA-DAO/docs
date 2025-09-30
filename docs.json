@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "XMAQUINA",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,13 +11,38 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
               "index",
-              "quickstart"
+              "ecosystem/introduction",
+              "ecosystem/deus-labs",
+              "ecosystem/launchpad"
+            ]
+          },
+          {
+            "group": "The DAO",
+            "pages": [
+              "dao/formation",
+              "dao/treasury",
+              "dao/stakeholders",
+              "dao/execution-engine",
+              "dam/members"
+            ]
+          },
+          {
+            "group": "The XMAQUINA thesis",
+            "pages": [
+              "thesis/humanoid",
+              "thesis/10x"
+            ]
+          },
+          {
+            "group": "Tokenomics",
+            "pages": [
+              "token/tokenomics"
             ]
           }
         ]
@@ -28,7 +53,7 @@
         {
           "anchor": "Documentation",
           "href": "https://docs.xmaquina.io",
-          "icon": "book-open-cover"
+          "icon": "book-open"
         },
         {
           "anchor": "Blog",
