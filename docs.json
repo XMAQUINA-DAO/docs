@@ -47,8 +47,10 @@
               "governance/v2"] },
           { "group": "Genesis Auctions", 
             "pages": [
-              "auctions/terms",
-              "auctions/how-to"] },
+              "auctions/index",
+              "auctions/how-to",
+              "auctions/dao-portal",
+              "auctions/terms"] },
           { "group": "Glossary", 
             "pages": ["glossary/index"] }
         ]
