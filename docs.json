@@ -47,6 +47,12 @@
               "token/unlocks",
               "token/mnav"
             ]
+          },
+          {
+            "group": "Glossary",
+            "pages": [
+              "glossary/index"
+            ]
           }
         ]
       }
