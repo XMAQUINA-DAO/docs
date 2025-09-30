@@ -39,6 +39,7 @@
               "token/utility",
               "token/unlocks",
               "token/vetoken",
+              "token/audit",
               "token/mnav"] },
           { "group": "Governance", 
             "pages": [
