@@ -28,14 +28,19 @@
               "dao/treasury",
               "dao/stakeholders",
               "dao/execution-engine",
-               "dao/scoring-committee",
+              "dao/scoring-commitee",
               "dao/members"] },
           { "group": "DEUS token", 
             "pages": [
               "token/tokenomics",
               "token/utility",
               "token/unlocks",
+              "token/vetoken",
               "token/mnav"] },
+          { "group": "Governance", 
+            "pages": [
+              "governance/v1",
+              "governance/v2"] },
           { "group": "Glossary", 
             "pages": ["glossary/index"] }
         ]
