@@ -2,101 +2,48 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "XMAQUINA",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
+  "colors": { 
+    "primary": "#16A34A", 
+    "light": "#07C983", 
+    "dark": "#15803D" },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Documentation",
         "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "index",
-              "ecosystem/introduction",
-              "ecosystem/deus-labs",
-              "ecosystem/launchpad"
-            ]
-          },
-          {
-            "group": "Thesis",
-            "pages": [
-              "thesis/humanoid",
-              "thesis/10x"
-            ]
-          },
-          {
-            "group": "Ecosystem",
-            "pages": [
-              "ecosystem/introduction",
-              "ecosystem/deus-labs",
-              "ecosystem/launchpad"
-            ]
-          },
-          {
-            "group": "The DAO",
-            "pages": [
-              "dao/formation",
-              "dao/treasury",
-              "dao/stakeholders",
-              "dao/execution-engine",
-              "dam/members"
-            ]
-          },
-          {
-            "group": "DEUS token",
-            "pages": [
-              "token/tokenomics",
-              "token/utility",
-              "token/unlocks",
-              "token/mnav"
-            ]
-          },
-          {
-            "group": "Glossary",
-            "pages": [
-              "glossary/index"
-            ]
-          }
+          { "group": "Introduction", 
+            "pages": ["index","ecosystem/introduction","ecosystem/deus-labs","ecosystem/launchpad"] },
+          { "group": "Thesis", 
+            "pages": ["thesis/humanoid","thesis/10x"] },
+          { "group": "Ecosystem", 
+            "pages": ["ecosystem/introduction","ecosystem/deus-labs","ecosystem/launchpad"] },
+          { "group": "The DAO", 
+            "pages": ["dao/formation","dao/treasury","dao/stakeholders","dao/execution-engine","dao/members"] },
+          { "group": "DEUS token", 
+            "pages": ["token/tokenomics","token/utility","token/unlocks","token/mnav"] },
+          { "group": "Glossary", 
+            "pages": ["glossary/index"] }
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": { 
+    "light": "/logo/light.svg", 
+    "dark": "/logo/dark.svg" },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hello@xmaquina.io"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "DAO Dashboard",
-      "href": "https://dao.xmaquina.io"
-    }
+    "links": [{ 
+      "label": "Support", 
+      "href": "mailto:hello@xmaquina.io" }],
+    "primary": { 
+      "type": "button", 
+      "label": "DAO Dashboard", 
+      "href": "https://dao.xmaquina.io" }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/xmaquina_io",
-      "github": "https://github.com/xmaquina"
-    }
-  }
+  "contextual": { 
+    "options": ["copy","view","chatgpt","claude","perplexity","mcp"] },
+  "footer": { 
+    "socials": { 
+      "x": "https://x.com/xmaquina_io", 
+      "github": "https://github.com/xmaquina" } }
 }
