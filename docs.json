@@ -64,21 +64,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.xmaquina.io",
-          "icon": "book-open"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://xmaquina.io/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
