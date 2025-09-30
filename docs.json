@@ -44,6 +44,10 @@
             "pages": [
               "governance/v1",
               "governance/v2"] },
+          { "group": "Genesis Auctions", 
+            "pages": [
+              "auctions/terms",
+              "auctions/how-to"] },
           { "group": "Glossary", 
             "pages": ["glossary/index"] }
         ]
