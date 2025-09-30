@@ -42,7 +42,10 @@
           {
             "group": "Tokenomics",
             "pages": [
-              "token/tokenomics"
+              "token/tokenomics",
+              "token/utility",
+              "token/unlocks",
+              "token/mnav"
             ]
           }
         ]
