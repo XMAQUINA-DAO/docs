@@ -13,15 +13,28 @@
         "tab": "Documentation",
         "groups": [
           { "group": "Introduction", 
-            "pages": ["index","ecosystem/introduction","ecosystem/deus-labs","ecosystem/launchpad"] },
-          { "group": "Thesis", 
-            "pages": ["thesis/humanoid","thesis/10x"] },
+            "pages": [
+              "introduction/index",
+              "thesis/humanoid",
+              "thesis/10x"] },
           { "group": "Ecosystem", 
-            "pages": ["ecosystem/introduction","ecosystem/deus-labs","ecosystem/launchpad"] },
+            "pages": [
+              "ecosystem/introduction",
+              "ecosystem/deus-labs",
+              "ecosystem/launchpad"] },
           { "group": "The DAO", 
-            "pages": ["dao/formation","dao/treasury","dao/stakeholders","dao/execution-engine","dao/members"] },
+            "pages": [
+              "dao/formation",
+              "dao/treasury",
+              "dao/stakeholders",
+              "dao/execution-engine",
+              "dao/members"] },
           { "group": "DEUS token", 
-            "pages": ["token/tokenomics","token/utility","token/unlocks","token/mnav"] },
+            "pages": [
+              "token/tokenomics",
+              "token/utility",
+              "token/unlocks",
+              "token/mnav"] },
           { "group": "Glossary", 
             "pages": ["glossary/index"] }
         ]
