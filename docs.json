@@ -28,6 +28,7 @@
               "dao/treasury",
               "dao/stakeholders",
               "dao/execution-engine",
+               "dao/scoring-committee",
               "dao/members"] },
           { "group": "DEUS token", 
             "pages": [
