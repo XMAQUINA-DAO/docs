@@ -11,6 +11,19 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@xmaquina.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "DAO Portal",
+      "href": "https://dao.xmaquina.io"
+    }
+  },
 
   "navigation": {
     "tabs": [
