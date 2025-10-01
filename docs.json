@@ -3,17 +3,14 @@
   "theme": "aspen",
   "name": "XMAQUINA",
 
-  "fonts": {
-    "family": "Manrope"
-  },
+  "logo": { "light": "/logo/light.svg", "dark": "/logo/dark.svg" },
+  "favicon": "/favicon.svg",
 
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-
-  "favicon": "/favicon.svg",
 
   "navigation": {
     "tabs": [
@@ -76,41 +73,10 @@
           },
           {
             "group": "Glossary",
-            "pages": [
-              "glossary/index"
-            ]
+            "pages": ["glossary/index"]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        { "anchor": "DAO dashboard", "href": "https://dao.xmaquina.io", "icon": "gauge" },
-        { "anchor": "Blog", "href": "https://xmaquina.io/blog", "icon": "newspaper" },
-        { "anchor": "GitHub", "href": "https://github.com/xmaquina", "icon": "github" },
-        { "anchor": "X (Twitter)", "href": "https://x.com/xmaquina_io", "icon": "x-twitter" },
-        { "anchor": "Discord", "href": "https://discord.gg/xmaquina", "icon": "discord" }
-      ]
-    }
-  },
-
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-
-  "navbar": {
-    "links": [
-      { "label": "Support", "href": "mailto:hello@xmaquina.io" }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "DAO Dashboard",
-      "href": "https://dao.xmaquina.io"
-    }
-  },
-
-  "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp"]
+    ]
   }
 }
