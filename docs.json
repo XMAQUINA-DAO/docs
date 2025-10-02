@@ -48,6 +48,17 @@
             ]
           },
           {
+            "group": "DEUS token",
+            "pages": [
+              "token/tokenomics",
+              "token/utility",
+              "token/unlocks",
+              "token/vetoken",
+              "token/audit",
+              "token/mnav"
+            ]
+          },
+          {
             "group": "The DAO",
             "pages": [
               "dao/formation",
@@ -69,14 +80,10 @@
             ]
           },
           {
-            "group": "DEUS token",
+            "group": "Launchpad",
             "pages": [
-              "token/tokenomics",
-              "token/utility",
-              "token/unlocks",
-              "token/vetoken",
-              "token/audit",
-              "token/mnav"
+              "launchpad/overview",
+              "launchpad/process"
             ]
           },
           {
