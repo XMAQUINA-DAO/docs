@@ -58,12 +58,9 @@
           {
             "group": "The DAO",
             "pages": [
-              "dao/formation",
               "dao/treasury",
-              "dao/stakeholders",
-              "dao/execution-engine",
-              "dao/scoring-commitee",
-              "dao/members"
+              "dao/members",
+              "dao/formation"
             ]
           },
           {
@@ -72,8 +69,7 @@
               "deus-labs/overview",
               "deus-labs/robonoid",
               "deus-labs/merch",
-              "deus-labs/video-star",
-              "deus-labs/rfp"
+              "deus-labs/program"
             ]
           },
           {
