@@ -82,7 +82,7 @@
           {
             "group": "Launchpad",
             "pages": [
-              "launchpad/overview",
+              "launchpad/intro",
               "launchpad/process"
             ]
           },
