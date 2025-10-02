@@ -75,8 +75,9 @@
           {
             "group": "Launchpad",
             "pages": [
-              "launchpad/intro",
-              "launchpad/process"
+              "launchpad/crypto-robotics",
+              "launchpad/process",
+              "launchpad/sub-dao"
             ]
           },
           {
