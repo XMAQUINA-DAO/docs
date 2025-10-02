@@ -2,10 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
   "name": "XMAQUINA",
-
-  "logo": { "light": "/logo/light.svg", "dark": "/logo/dark.svg" },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "favicon": "/favicon.svg",
-
   "colors": {
     "primary": "#65D342",
     "light": "#07C983",
@@ -24,7 +25,6 @@
       "href": "https://dao.xmaquina.io"
     }
   },
-
   "navigation": {
     "tabs": [
       {
@@ -35,7 +35,6 @@
             "pages": [
               "introduction/home",
               "introduction/humanoid",
-              "introduction/10x",
               "introduction/timeline"
             ]
           },
@@ -50,12 +49,12 @@
           {
             "group": "DEUS token",
             "pages": [
-              "token/tokenomics",
-              "token/utility",
-              "token/unlocks",
-              "token/vetoken",
-              "token/audit",
-              "token/mnav"
+              "deus-token/tokenomics",
+              "deus-token/utility",
+              "deus-token/unlocks",
+              "deus-token/vetoken",
+              "deus-token/audit",
+              "deus-token/mnav"
             ]
           },
           {
@@ -104,7 +103,9 @@
           },
           {
             "group": "Glossary",
-            "pages": ["glossary/index"]
+            "pages": [
+              "glossary/index"
+            ]
           }
         ]
       }
