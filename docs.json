@@ -51,8 +51,7 @@
             "pages": [
               "deus-token/tokenomics",
               "deus-token/vetoken",
-              "deus-token/mnav",
-              "deus-token/audit"
+              "deus-token/mnav"
             ]
           },
           {
@@ -97,9 +96,10 @@
             ]
           },
           {
-            "group": "Glossary",
+            "group": "Misc",
             "pages": [
-              "glossary/index"
+              "misc/glossary",
+              "misc/audit"
             ]
           }
         ]
