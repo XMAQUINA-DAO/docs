@@ -59,6 +59,16 @@
             ]
           },
           {
+            "group": "DEUS Labs",
+            "pages": [
+              "deus-labs/overview",
+              "deus-labs/robonoid",
+              "deus-labs/merch",
+              "deus-labs/video-star",
+              "deus-labs/rfp"
+            ]
+          },
+          {
             "group": "DEUS token",
             "pages": [
               "token/tokenomics",
