@@ -35,7 +35,7 @@
             "pages": [
               "introduction/home",
               "introduction/humanoid",
-              "introduction/timeline"
+              "introduction/manifesto"
             ]
           },
           {
@@ -51,8 +51,8 @@
             "pages": [
               "deus-token/tokenomics",
               "deus-token/vetoken",
-              "deus-token/audit",
-              "deus-token/mnav"
+              "deus-token/mnav",
+              "deus-token/audit"
             ]
           },
           {
@@ -66,10 +66,10 @@
           {
             "group": "DEUS Labs",
             "pages": [
-              "deus-labs/overview",
+              "deus-labs/incubation",
+              "deus-labs/program",
               "deus-labs/robonoid",
-              "deus-labs/merch",
-              "deus-labs/program"
+              "deus-labs/merch"
             ]
           },
           {
