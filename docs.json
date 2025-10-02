@@ -50,8 +50,6 @@
             "group": "DEUS token",
             "pages": [
               "deus-token/tokenomics",
-              "deus-token/utility",
-              "deus-token/unlocks",
               "deus-token/vetoken",
               "deus-token/audit",
               "deus-token/mnav"
