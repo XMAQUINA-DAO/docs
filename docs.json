@@ -9,8 +9,8 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#1ED612",
-    "light": "#07C983",
-    "dark": "#010101"
+    "light": "#B7B7B8",
+    "dark": "#000000"
   },
   "navbar": {
     "links": [
