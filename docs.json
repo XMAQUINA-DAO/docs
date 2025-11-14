@@ -35,7 +35,8 @@
             "pages": [
               "introduction/home",
               "introduction/humanoid",
-              "introduction/manifesto"
+              "introduction/manifesto",
+              "introduction/formation"
             ]
           },
           {
@@ -44,8 +45,7 @@
               "dao/introduction",
               "dao/treasury",
               "dao/execution-engine",
-              "dao/scoring-commitee",
-              "dao/formation"
+              "dao/scoring-commitee"
             ]
           },
           {
