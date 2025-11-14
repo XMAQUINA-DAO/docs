@@ -20,3 +20,77 @@ With xDEUS at the center, Governance V2 opens up a new era of participation, lon
 ## veToken Refresher
 
 For more detailed information about `xDEUS`, please visit the following [doc](https://docs.xmaquina.io/deus-token/vetoken)
+
+## Governance in more detail
+
+Governance is divided into two primary types:
+
+1. **Snapshot Governance**: Handles operational decisions that do not involve on-chain transactions, such as gauging community sentiment or making non-binding resolutions.
+2. **Aragon Governance**: Manages on-chain proposals, including updates to governance parameters or treasury operations (e.g., capital deployment or profit distribution from exits).
+
+All ideas and proposals begin with open discussions in a dedicated forum (e.g., the official Discord), where community members can brainstorm, refine concepts, and outline next steps. This forum is accessible to everyone, regardless of DEUS token ownership. In the future, the DAO may explore seasonal governance cycles to further organize and prioritize initiatives.
+
+Some processes may incorporate Snapshot voting to clarify direction and build consensus, while others proceed directly to on-chain stages if appropriate.
+
+### Proposal Lifecycle
+
+#### Phase 1: Ideation
+Ideas emerge organically within the XMaquina community, typically through informal discussions on the official Discord or other forums. This phase emphasizes evaluating interest, potential benefits, risks, and refinements. Community input helps ensure proposals align with the DAO’s mission and avoid undue complexity. Participation is open to all.
+
+#### Phase 2: Draft Proposal
+Once an idea garners enough support, it advances to a Draft Proposal. Use the standardized template from the XMaquina documentation for consistency. Drafts must detail objectives, expected outcomes, required resources, and timelines. Community members can provide feedback, suggest changes, or seek more details. Each proposal receives a unique reference ID for tracking.
+
+To move forward (to Snapshot or Aragon), drafts need demonstrated support, such as through a Discord poll or endorsements from DEUS holders.
+
+#### Phase 3: Snapshot Voting (Optional)
+This stage lets DEUS token holders assess sentiment without gas fees. It's ideal for operational matters or preliminary checks before on-chain actions. A favorable outcome indicates readiness for further steps, with possible adjustments based on feedback. Snapshot can be skipped if unnecessary and covers everything except on-chain treasury assets.
+
+#### Phase 4: Proposal Due Diligence 
+For proposals involving significant treasury movements (e.g., investments), a neutral scoring committee conducts due diligence. The report covers:
+- Strategic assessment
+- Financial implications
+- Exit strategies
+- Risks and mitigations
+
+This process lasts at least two weeks, providing voters with thorough, unbiased insights.
+
+#### Phase 5: On-Chain Voting
+Formal decisions occur via the Aragon OSx framework, enforced by smart contracts. To participate, DEUS tokens must be locked to mint xDEUS, a non-transferable ERC721 token that decentralizes governance power.
+
+For proposals involving on-chain operations like treasury management, one of the following governance processes applies:
+
+1. **OPX - Optimistic Dual Governance**: Proposals are initiated by the Northstar Council and can be vetoed by any xDEUS holder. This enables quick actions with community oversight.
+2. **CPX - Community Dual Governance**: Proposals are created by xDEUS holders and can be vetoed by any xDEUS holder, promoting grassroots initiatives.
+3. **BOT - Dual Governance**: Proposals originate from the Northstar Council, with xDEUS holders voting yes or no. Approval requires sufficient quorum.
+
+An optimistic dual governance plugin from Aragon OSx allows Northstar Council delegates to propose actions, with token holders retaining veto rights. This supports rapid development while transitioning to full decentralization. Community members can also submit proposals directly without needing approval.
+
+### Phase 6: Execution
+Approved on-chain proposals execute automatically via Aragon, which may involve:
+- Treasury allocations
+- Project funding
+- Parameter adjustments
+- New asset launches
+- Ecosystem infrastructure development
+
+## Governance Epochs and Scheduling
+Governance updates occur weekly every Thursday, aligned with epochs (see veToken docs for details). Votes typically last one epoch (approximately 5 days). A sample cycle might include:
+- Early week: Informal checks (e.g., Discord polls)
+- Mid-week: Snapshot (if needed)
+- Following weeks: Due diligence (if applicable)
+- Epoch-aligned: On-chain voting and execution
+
+Minor decisions without fund transfers may use Snapshot alone for off-chain implementation.
+
+### Quorum and Participation
+Quorum is a percentage of circulating xDEUS that must participate. Both "YES" and "ABSTAIN" votes count toward quorum to encourage involvement. Parameters like quorum thresholds and vote durations can evolve as the DAO matures.
+
+### Staking Parameters
+- **Minimum Stake**: xDEUS holders must maintain their stake for at least 5 days before initiating a withdrawal request.
+- **Cooldown Period**: After requesting withdrawal, a 5-day cooldown applies before DEUS tokens become accessible.
+
+### DEUS Token Addresses
+Voting is supported across EVM chains (and soon SVM). Valid addresses:
+- Base and Peaq: 0x940A319B75861014A220D9c6c144d108552B089B
+- Ethereum Mainnet: 0x2D3A1adC8C81d79251876ed686C996554Fb31C1F
+- Solana: FNApPiNRrsA8k9jgqh4W9BqWCShDj6oRMUi8yMzBxcNw
