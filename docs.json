@@ -59,18 +59,13 @@
           {
             "group": "DEUS Labs",
             "pages": [
-              "deus-labs/incubation",
-              "deus-labs/program",
-              "deus-labs/robonoid",
-              "deus-labs/merch"
+              "deus-labs/introduction"
             ]
           },
           {
             "group": "Launchpad",
             "pages": [
-              "launchpad/crypto-robotics",
-              "launchpad/process",
-              "launchpad/sub-dao"
+              "launchpad/introduction"
             ]
           },
           {
