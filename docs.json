@@ -9,8 +9,8 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#1ED612",
-    "light": "#07C983",
-    "dark": "#010101"
+    "light": "#1ED612",
+    "dark": "#000000"
   },
   "navbar": {
     "links": [
@@ -35,13 +35,17 @@
             "pages": [
               "introduction/home",
               "introduction/humanoid",
-              "introduction/manifesto"
+              "introduction/manifesto",
+              "introduction/formation"
             ]
           },
           {
-            "group": "Ecosystem",
+            "group": "The DAO",
             "pages": [
-              "ecosystem/launchpad"
+              "dao/introduction",
+              "dao/treasury",
+              "dao/execution-engine",
+              "dao/scoring-commitee"
             ]
           },
           {
@@ -53,26 +57,15 @@
             ]
           },
           {
-            "group": "The DAO",
-            "pages": [
-              "dao/treasury",
-              "dao/formation"
-            ]
-          },
-          {
             "group": "DEUS Labs",
             "pages": [
-              "deus-labs/incubation",
-              "deus-labs/robonoid",
-              "deus-labs/merch"
+              "deus-labs/introduction"
             ]
           },
           {
             "group": "Launchpad",
             "pages": [
-              "launchpad/crypto-robotics",
-              "launchpad/process",
-              "launchpad/sub-dao"
+              "launchpad/introduction"
             ]
           },
           {
