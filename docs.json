@@ -38,12 +38,11 @@
               "introduction/manifesto"
             ]
           },
-         {
+          {
             "group": "The DAO",
             "pages": [
               "dao/dao",
               "dao/treasury",
-              "dao/members",
               "dao/formation"
             ]
           },
@@ -59,7 +58,6 @@
             "group": "The DAO",
             "pages": [
               "dao/treasury",
-              "dao/members",
               "dao/formation"
             ]
           },
