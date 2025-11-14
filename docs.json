@@ -41,8 +41,10 @@
           {
             "group": "The DAO",
             "pages": [
-              "dao/dao",
+              "dao/introduction",
               "dao/treasury",
+              "dao/execution-engine",
+              "dao/scoring-commitee",
               "dao/formation"
             ]
           },
@@ -52,13 +54,6 @@
               "deus-token/tokenomics",
               "deus-token/vetoken",
               "deus-token/mnav"
-            ]
-          },
-          {
-            "group": "The DAO",
-            "pages": [
-              "dao/treasury",
-              "dao/formation"
             ]
           },
           {
