@@ -34,8 +34,7 @@
             "group": "Introduction",
             "pages": [
               "introduction/home",
-              "introduction/humanoid",
-              "introduction/formation"
+              "introduction/humanoid"
             ]
           },
           {
@@ -44,6 +43,7 @@
               "dao/introduction",
               "dao/treasury",
               "dao/execution-engine",
+              "dao/formation",
               "dao/scoring-commitee"
             ]
           },
