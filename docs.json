@@ -29,7 +29,8 @@
     "tabs": [
       {
         "tab": "Documentation",
-        "groups": [
+        "pages": [
+          "documentation/secret",
           {
             "group": "Introduction",
             "pages": [
