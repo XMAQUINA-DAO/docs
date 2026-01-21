@@ -30,7 +30,6 @@
       {
         "tab": "Documentation",
         "pages": [
-          "documentation/secret",
           {
             "group": "Introduction",
             "pages": [
