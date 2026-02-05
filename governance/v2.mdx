@@ -11,7 +11,7 @@ Effective governance is central to the DAO’s mission. The governance process i
 - **xDEUS is the governance token:** DEUS holders must stake their tokens to mint xDEUS, the XMAQUINA ecosystem’s veToken. xDEUS grants governance rights and unlocks access to protocol rewards. xDEUS is a soulbound veToken ERC721 token. 
 - **Rewards Grow Over Time:** The longer DEUS remains staked, the higher the reward multipliers. This increasing both their influence and earning potential.
 - **Optimistic, Dual Governance:** Governance V2 introduces an agility layer within governance through OPX proposals. This fast-track mechanism allows trusted DAO units like the Northstar Council to propose time-sensitive actions. Each OPX proposal includes a time-lock period, giving xDEUS holders the ability to veto. The result is a system that balances speed with decentralization and accountability.
-- **Easy to understand:** Our DAO portal makes governing the future of robotics easy and is powered by the full Aragon stack. Use it at: https://genesis.xmaquina.io/stake
+- **Easy to understand:** Our DAO portal makes governing the future of robotics easy and is powered by the full Aragon stack. Use it at: https://dao.xmaquina.io/stake
 
 ![image.avif](/images/DAO-Staking-Portal.png)
 
@@ -23,49 +23,39 @@ For more detailed information about `xDEUS`, please visit the following [doc](ht
 
 ## Governance in more detail
 
-Governance is divided into two primary types:
+Proposals are brought to a vote through one of two venues, depending on the nature of the decision:
 
 1. **Snapshot Governance**: Handles operational decisions that do not involve on-chain transactions, such as gauging community sentiment or making non-binding resolutions.
 2. **Aragon Governance**: Manages on-chain proposals, including updates to governance parameters or treasury operations (e.g., capital deployment or profit distribution from exits).
 
-All ideas and proposals begin with open discussions in a dedicated forum (e.g., the official Discord), where community members can brainstorm, refine concepts, and outline next steps. This forum is accessible to everyone, regardless of DEUS token ownership. In the future, the DAO may explore seasonal governance cycles to further organize and prioritize initiatives.
-
-Some processes may incorporate Snapshot voting to clarify direction and build consensus, while others proceed directly to on-chain stages if appropriate.
+Each proposal is routed to the appropriate venue — not both. All ideas begin with open discussions in the community (e.g., the official Discord), where members can brainstorm, refine concepts, and outline next steps. This forum is accessible to everyone, regardless of DEUS token ownership.
 
 ### Proposal Lifecycle
 
-#### Phase 1: Ideation
-Ideas emerge organically within the XMaquina community, typically through informal discussions on the official Discord or other forums. This phase emphasizes evaluating interest, potential benefits, risks, and refinements. Community input helps ensure proposals align with the DAO’s mission and avoid undue complexity. Participation is open to all.
+#### Phase 1: Ideation & Proposal Formation
+Ideas emerge organically within the XMaquina community through informal discussions on the official Discord or other forums. Community members surface opportunities, flag issues, and propose directions. Participation is open to all.
 
-#### Phase 2: Draft Proposal
-Once an idea garners enough support, it advances to a Draft Proposal. Use the standardized template from the XMaquina documentation for consistency. Drafts must detail objectives, expected outcomes, required resources, and timelines. Community members can provide feedback, suggest changes, or seek more details. Each proposal receives a unique reference ID for tracking.
+Once an idea gains traction, the Northstar Council takes the lead in shaping it into a formal proposal. The council collects the necessary information from community discussions, scores input from both the community and broader industry context, and conducts any required due diligence. For proposals involving significant treasury movements (e.g., investments), this includes strategic assessment, financial implications, exit strategies, and risk analysis. The result is a well-structured proposal ready for a vote.
 
-To move forward (to Snapshot or Aragon), drafts need demonstrated support, such as through a Discord poll or endorsements from DEUS holders.
+#### Phase 2: Voting
+The proposal is brought to a vote through the appropriate venue:
 
-#### Phase 3: Snapshot Voting (Optional)
-This stage lets DEUS token holders assess sentiment without gas fees. It's ideal for operational matters or preliminary checks before on-chain actions. A favorable outcome indicates readiness for further steps, with possible adjustments based on feedback. Snapshot can be skipped if unnecessary and covers everything except on-chain treasury assets.
+- **Snapshot**: For operational decisions, sentiment checks, and non-binding resolutions. Voting is off-chain and gas-free.
+- **Aragon**: For on-chain proposals involving treasury operations, parameter changes, or protocol upgrades. Voting is on-chain and enforced by smart contracts.
 
-#### Phase 4: Proposal Due Diligence 
-For proposals involving significant treasury movements (e.g., investments), a neutral scoring committee conducts due diligence. The report covers:
-- Strategic assessment
-- Financial implications
-- Exit strategies
-- Risks and mitigations
+To participate in on-chain votes, DEUS tokens must be locked to mint xDEUS, a non-transferable ERC721 token that decentralizes governance power.
 
-This process lasts at least two weeks, providing voters with thorough, unbiased insights.
+##### On-Chain Governance Types
 
-#### Phase 5: On-Chain Voting
-Formal decisions occur via the Aragon OSx framework, enforced by smart contracts. To participate, DEUS tokens must be locked to mint xDEUS, a non-transferable ERC721 token that decentralizes governance power.
-
-For proposals involving on-chain operations like treasury management, one of the following governance processes applies:
+For proposals routed through Aragon, one of the following governance processes applies:
 
 1. **OPX - Optimistic Dual Governance**: Proposals are initiated by the Northstar Council and can be vetoed by any xDEUS holder. This enables quick actions with community oversight.
-2. **XMQ - Community Dual Governance**: A community-led proposal under the DAO’s optimistic governance system. Any member(s) holding the required minimum of the total token supply can initiate proposals. Provided that the rest of the community do not veto, the proposal is automatically approved. XMQ promotes grassroots initiatives.
+2. **XMQ - Community Dual Governance**: A community-led proposal under the DAO's optimistic governance system. Any member(s) holding the required minimum of the total token supply can initiate proposals. Provided that the rest of the community do not veto, the proposal is automatically approved. XMQ promotes grassroots initiatives.
 3. **BOT - Dual Governance**: Proposals originate from the Northstar Council, with xDEUS holders voting yes or no. Approval requires sufficient quorum.
 
-An optimistic dual governance plugin from Aragon OSx allows Northstar Council delegates to propose actions, with token holders retaining veto rights. This supports rapid development while transitioning to full decentralization. Community members can also submit proposals directly without needing approval.
+An optimistic dual governance plugin from Aragon OSx allows Northstar Council delegates to propose actions, with token holders retaining veto rights. This supports rapid development while transitioning to full decentralization. Community members can also submit proposals directly without needing council approval.
 
-### Phase 6: Execution
+#### Phase 3: Execution & Retrospective
 Approved on-chain proposals execute automatically via Aragon, which may involve:
 - Treasury allocations
 - Project funding
@@ -73,17 +63,18 @@ Approved on-chain proposals execute automatically via Aragon, which may involve:
 - New asset launches
 - Ecosystem infrastructure development
 
+Following execution, results are discussed with the community. The Northstar Council and community review outcomes together, assess impact, and form plans to carry out the will of the token holders. This retrospective loop ensures accountability and continuous improvement in the governance process.
+
 ## Governance Epochs and Scheduling
 Governance updates occur weekly every Thursday, aligned with epochs (see veToken docs for details). Votes typically last one epoch (approximately 5 days). A sample cycle might include:
-- Early week: Informal checks (e.g., Discord polls)
-- Mid-week: Snapshot (if needed)
-- Following weeks: Due diligence (if applicable)
-- Epoch-aligned: On-chain voting and execution
+- Early week: Community discussions and ideation (e.g., Discord)
+- Mid-week: Proposal formation by Northstar Council
+- Epoch-aligned: Voting (Snapshot or Aragon) and execution
 
 Minor decisions without fund transfers may use Snapshot alone for off-chain implementation.
 
 ### Quorum and Participation
-Quorum is a percentage of circulating xDEUS that must participate. Both "YES" and "ABSTAIN" votes count toward quorum to encourage involvement. Parameters like quorum thresholds and vote durations can evolve as the DAO matures.
+Quorum is a percentage of circulating xDEUS that must participate for a proposal to be valid. Unlike traditional ERC20 token voting systems that offer For/Against/Abstain options, the veToken governance model operates differently depending on the governance type. For optimistic proposals (OPX, XMQ), governance is veto-based — proposals pass unless actively vetoed by xDEUS holders during the time-lock period. For BOT proposals, xDEUS holders vote yes or no, and the proposal must meet a minimum participation threshold to pass. Parameters like quorum thresholds and vote durations can evolve as the DAO matures.
 
 ### Staking Parameters
 - **Minimum Stake**: xDEUS holders must maintain their stake for at least 5 days before initiating a withdrawal request.
