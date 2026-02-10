@@ -31,9 +31,10 @@
         "tab": "Documentation",
         "pages": [
           {
-            "group": "Introduction",
+            "group": "Overview",
             "pages": [
               "introduction/home",
+              "introduction/untitled-page",
               "introduction/humanoid"
             ]
           },
@@ -42,11 +43,15 @@
             "pages": [
               "dao/introduction",
               "dao/treasury",
-              "dao/execution-engine",
               "dao/stakeholders",
+              "dao/execution-engine",
               "dao/formation",
               "dao/scoring-commitee"
             ]
+          },
+          {
+            "group": "RCM Protocol",
+            "pages": []
           },
           {
             "group": "DEUS Token",
@@ -87,8 +92,9 @@
           {
             "group": "Misc",
             "pages": [
-              "misc/glossary",
-              "misc/audit"
+              "misc/brand-assets",
+              "misc/audit",
+              "misc/glossary"
             ]
           }
         ]
