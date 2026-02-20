@@ -51,8 +51,8 @@
               "dao/untitled-page-2",
               "dao/untitled-page-3",
               "dao/untitled-page-4",
-              "dao/untitled-page",
-              "dao/sub-daos-and-committees"
+              "dao/sub-daos-and-committees",
+              "dao/untitled-page"
             ]
           },
           {
@@ -82,6 +82,7 @@
           },
           {
             "group": "Genesis Auctions",
+            "hidden": true,
             "pages": [
               "auctions/index",
               "auctions/how-to",
@@ -89,13 +90,12 @@
             ]
           },
           {
-            "group": "Audits & Attestations",
+            "group": "Audits & Attestations ",
             "pages": [
-              "untitled-page"
+              "dao/untitled-page-5",
+              "smart-contreact-audits"
             ]
           },
-          "misc/brand-assets",
-          "misc/audit",
           {
             "group": "Legal Documents",
             "pages": [
@@ -110,7 +110,8 @@
           "dao/stakeholders",
           "introduction/humanoid",
           "introduction/untitled-page",
-          "launchpad/introduction"
+          "launchpad/introduction",
+          "dao/untitled-page-6"
         ]
       }
     ]
