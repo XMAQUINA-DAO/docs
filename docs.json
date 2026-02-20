@@ -48,11 +48,11 @@
             "group": "XMAQUINA DAO",
             "pages": [
               "dao/untitled-page-1",
+              "dao/untitled-page-2",
+              "dao/untitled-page-3",
+              "dao/untitled-page-4",
               "dao/untitled-page",
-              "dao/stakeholders",
-              "dao/execution-engine",
-              "dao/formation",
-              "dao/scoring-commitee"
+              "dao/sub-daos-and-committees"
             ]
           },
           {
@@ -85,19 +85,28 @@
             "pages": [
               "auctions/index",
               "auctions/how-to",
-              "auctions/dao-portal",
-              "auctions/terms"
+              "auctions/dao-portal"
             ]
           },
           {
             "group": "Misc",
             "pages": [
               "misc/brand-assets",
-              "misc/audit",
-              "misc/glossary"
+              "misc/audit"
             ]
           },
+          {
+            "group": "Legal Documents",
+            "pages": [
+              "dao/formation",
+              "auctions/terms"
+            ]
+          },
+          "dao/scoring-commitee",
+          "dao/execution-engine",
+          "misc/glossary",
           "dao/treasury",
+          "dao/stakeholders",
           "introduction/humanoid",
           "introduction/untitled-page",
           "launchpad/introduction"
