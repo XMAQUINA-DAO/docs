@@ -47,9 +47,8 @@
           {
             "group": "XMAQUINA DAO",
             "pages": [
+              "dao/untitled-page-1",
               "dao/untitled-page",
-              "dao/introduction",
-              "dao/treasury",
               "dao/stakeholders",
               "dao/execution-engine",
               "dao/formation",
@@ -98,6 +97,7 @@
               "misc/glossary"
             ]
           },
+          "dao/treasury",
           "introduction/humanoid",
           "introduction/untitled-page",
           "launchpad/introduction"
