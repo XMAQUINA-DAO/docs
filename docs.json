@@ -39,8 +39,9 @@
             ]
           },
           {
-            "group": "Untitled Group",
+            "group": " Humanoid Strategy",
             "pages": [
+              "introduction/core-thesis",
               "introduction/untitled-page",
               "introduction/humanoid"
             ]
