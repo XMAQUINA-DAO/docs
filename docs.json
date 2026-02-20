@@ -89,12 +89,13 @@
             ]
           },
           {
-            "group": "Misc",
+            "group": "Audits & Attestations",
             "pages": [
-              "misc/brand-assets",
-              "misc/audit"
+              "untitled-page"
             ]
           },
+          "misc/brand-assets",
+          "misc/audit",
           {
             "group": "Legal Documents",
             "pages": [
