@@ -41,9 +41,7 @@
           {
             "group": " Humanoid Strategy",
             "pages": [
-              "introduction/core-thesis",
-              "introduction/untitled-page",
-              "introduction/humanoid"
+              "introduction/core-thesis"
             ]
           },
           {
@@ -104,7 +102,9 @@
               "misc/audit",
               "misc/glossary"
             ]
-          }
+          },
+          "introduction/humanoid",
+          "introduction/untitled-page"
         ]
       }
     ]
