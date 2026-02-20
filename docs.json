@@ -45,8 +45,9 @@
             ]
           },
           {
-            "group": "The DAO",
+            "group": "XMAQUINA DAO",
             "pages": [
+              "dao/untitled-page",
               "dao/introduction",
               "dao/treasury",
               "dao/stakeholders",
@@ -74,12 +75,6 @@
             ]
           },
           {
-            "group": "Launchpad",
-            "pages": [
-              "launchpad/introduction"
-            ]
-          },
-          {
             "group": "Governance",
             "pages": [
               "governance/v1",
@@ -104,7 +99,8 @@
             ]
           },
           "introduction/humanoid",
-          "introduction/untitled-page"
+          "introduction/untitled-page",
+          "launchpad/introduction"
         ]
       }
     ]
