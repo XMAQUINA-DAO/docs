@@ -56,6 +56,13 @@
             ]
           },
           {
+            "group": "DAO Governance",
+            "pages": [
+              "dao/g",
+              "dao/untitled-page-6"
+            ]
+          },
+          {
             "group": "RCM Protocol",
             "pages": []
           },
@@ -74,22 +81,6 @@
             ]
           },
           {
-            "group": "Governance",
-            "pages": [
-              "governance/v1",
-              "governance/v2"
-            ]
-          },
-          {
-            "group": "Genesis Auctions",
-            "hidden": true,
-            "pages": [
-              "auctions/index",
-              "auctions/how-to",
-              "auctions/dao-portal"
-            ]
-          },
-          {
             "group": "Audits & Attestations ",
             "pages": [
               "dao/untitled-page-5",
@@ -103,6 +94,14 @@
               "auctions/terms"
             ]
           },
+          {
+            "group": "Governance",
+            "hidden": true,
+            "pages": [
+              "governance/v1",
+              "governance/v2"
+            ]
+          },
           "dao/scoring-commitee",
           "dao/execution-engine",
           "misc/glossary",
@@ -110,8 +109,7 @@
           "dao/stakeholders",
           "introduction/humanoid",
           "introduction/untitled-page",
-          "launchpad/introduction",
-          "dao/untitled-page-6"
+          "launchpad/introduction"
         ]
       }
     ]
