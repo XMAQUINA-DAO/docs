@@ -63,8 +63,24 @@
             ]
           },
           {
-            "group": "RCM Protocol",
-            "pages": []
+            "group": "Audits & Attestations ",
+            "pages": [
+              "dao/untitled-page-5",
+              "smart-contreact-audits"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "dao/formation",
+              "auctions/terms"
+            ]
+          },
+          {
+            "group": "DEUS Labs",
+            "pages": [
+              "deus-labs/introduction"
+            ]
           },
           {
             "group": "DEUS Token",
@@ -75,24 +91,8 @@
             ]
           },
           {
-            "group": "DEUS Labs",
-            "pages": [
-              "deus-labs/introduction"
-            ]
-          },
-          {
-            "group": "Audits & Attestations ",
-            "pages": [
-              "dao/untitled-page-5",
-              "smart-contreact-audits"
-            ]
-          },
-          {
-            "group": "Legal Documents",
-            "pages": [
-              "dao/formation",
-              "auctions/terms"
-            ]
+            "group": "RCM Protocol",
+            "pages": []
           },
           {
             "group": "Governance",
@@ -109,7 +109,8 @@
           "dao/stakeholders",
           "introduction/humanoid",
           "introduction/untitled-page",
-          "launchpad/introduction"
+          "launchpad/introduction",
+          "dao/untitled-page-7"
         ]
       }
     ]
