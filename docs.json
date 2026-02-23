@@ -34,8 +34,8 @@
             "group": "Introduction",
             "pages": [
               "introduction/home",
-              "introduction/untitled-page-1",
-              "introduction/untitled-page-2"
+              "introduction/ecosystem-architecture",
+              "introduction/core-principles"
             ]
           },
           {
@@ -47,21 +47,21 @@
           {
             "group": "XMAQUINA DAO",
             "pages": [
-              "dao/untitled-page-1",
-              "dao/untitled-page-2",
-              "dao/untitled-page-3",
-              "dao/untitled-page-4",
-              "dao/sub-daos-and-committees",
-              "dao/untitled-page"
+              "dao/overview-dao",
+              "dao/treasury-dao",
+              "dao/genesis-auctions",
+              "dao/deus-governance",
+              "dao/sub-daos",
+              "dao/legal-structure"
             ]
           },
           {
             "group": "DAO Governance",
             "pages": [
-              "dao/g",
-              "dao/untitled-page-6",
-              "dao/untitled-page-7",
-              "dao/x-deus-and-voting-power",
+              "dao/governance",
+              "dao/governance-process",
+              "dao/governance-types",
+              "dao/xdeus",
               "dao/staking-mechanics",
               "dao/governance-parameters"
             ]
@@ -88,7 +88,7 @@
             "group": "Audits & Attestations ",
             "pages": [
               "smart-contreact-audits",
-              "dao/untitled-page-5"
+              "dao/attestations"
             ]
           },
           {
