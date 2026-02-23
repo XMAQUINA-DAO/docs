@@ -2,55 +2,21 @@
 title: "Governance Types"
 ---
 
-XMAQUINA governance operates through defined proposal categories and execution venues. While proposals may differ in scope and impact, voting mechanics remain consistent across the DAO.
+XMAQUINA governance operates through defined proposal categories and approval mechanisms. Governance types determine how a proposal is approved, not how it originates or executes.
 
-Governance decisions are executed through either Aragon or Snapshot, depending on where affected assets are held and how execution must occur.
-
----
-
-## **Governance Venues**
-
-### **Aragon Governance**
-
-Aragon governance is used for proposals that directly affect assets held within the Aragon DAO smart contract treasury.
-
-This includes:
-
-• Onchain treasury transactions within the Aragon contract
-
-• Governance parameter updates
-
-• Smart contract-level actions
-
-When a proposal concerns assets or logic contained within the Aragon DAO contract, voting and execution occur through Aragon.
-
-Approved proposals execute onchain through the Aragon framework.
+All governance actions remain subject to quorum requirements and defined voting periods.
 
 ---
 
-### **Snapshot Governance**
+## **1. BOT Proposals Dual Governance **
 
-Snapshot is used for proposals that authorize actions outside of the Aragon contract treasury.
+BOT refers to the Dual Governance model used exclusively for treasury allocations into robotics companies and related equity investments.
 
-This includes:
+These proposals authorize capital deployment from the DAO treasury into external robotics positions.
 
-• Ecosystem governance initiatives
+BOT proposals may be voted on through either governance venue, depending on where the affected assets are held.
 
-• Weighted votes and prioritization decisions
-
-• Liquidity provisioning strategies
-
-• Authorizations executed through the governance-approved multisig Safe
-
-Snapshot voting is offchain. Execution occurs after approval through the appropriate governance-approved wallet or operational structure.
-
-### **BOT — Standard Dual Governance**
-
-BOT proposals require explicit yes or no voting.
-
-These proposals are typically used for higher-impact or structural decisions.
-
-Under this model:
+Approval mechanics:
 
 • A proposal is submitted
 
@@ -58,78 +24,88 @@ Under this model:
 
 • A quorum threshold must be met
 
-• A majority vote determines the outcome
+• More than 50% of participating votes must be in favor
 
-If quorum and approval thresholds are satisfied, the proposal executes.
+If quorum and majority requirements are satisfied, the proposal is approved.
+
+No robotics capital deployment occurs without approval through a BOT proposal.
 
 ---
 
-### **OPX — Optimistic Dual Governance**
+## **2. XMQ Proposals**
 
-OPX proposals are initiated by the Northstar Council for time-sensitive or execution-critical actions.
+XMQ refers to ecosystem and operational governance proposals within the DAO.
 
-Under the optimistic model:
+These may include:
 
-• The proposal is submitted on-chain
+• Liquidity provisioning
+
+• Infrastructure and tooling upgrades
+
+• Campaigns and ecosystem growth initiatives
+
+• Governance parameter updates
+
+• Weighted prioritization votes
+
+• Operational authorizations
+
+XMQ proposals follow the same quorum-based yes or no voting mechanics as BOT proposals.
+
+The distinction between BOT and XMQ reflects proposal scope rather than differences in voting logic.
+
+---
+
+## **3. CDG Proposals**
+
+CDG stands for Community Dual Governance and refers to community-initiated proposals operating under the DAO’s optimistic governance framework.
+
+Eligible xDEUS holders meeting the defined proposal threshold may submit a CDG proposal.
+
+Under this model:
+
+• A proposal is submitted by eligible token holders
 
 • A defined time-lock period begins
 
 • xDEUS holders may veto during this period
 
-If no veto threshold is met within the time-lock window, the proposal executes automatically.
+• If the veto threshold is not reached, the proposal is approved
 
-This model enables execution efficiency while preserving token holder oversight.
-
----
-
-### **XMQ — Community Dual Governance**
-
-XMQ proposals are initiated by eligible xDEUS holders.
-
-This mechanism enables community-driven initiatives without requiring Northstar Council sponsorship.
-
-Under the optimistic structure:
-
-• A qualifying xDEUS holder submits the proposal
-
-• A time-lock period applies
-
-• xDEUS holders may veto during this period
-
-If no veto threshold is met, the proposal executes automatically.
-
-XMQ allows grassroots participation while maintaining governance safeguards.
+CDG enables grassroots participation while maintaining governance safeguards.
 
 ---
 
-### **BOT — Standard Dual Governance**
+## **4.  OPX Proposals**
 
-BOT proposals require explicit yes or no voting.
+OPX stands for Optimistic Dual Governance and operates under an optimistic framework initiated by authorized DAO units.
 
-These proposals are typically used for higher-impact or structural decisions.
+These are typically used for time-sensitive or mandate-driven actions requiring execution efficiency.
 
 Under this model:
 
-• A proposal is submitted
+• A proposal is submitted by an authorized DAO unit
 
-• xDEUS holders vote yes or no
+• A defined time-lock period begins
 
-• A quorum threshold must be met
+• xDEUS holders may veto during this period
 
-• A majority vote determines the outcome
+• If the veto threshold is not reached, the proposal is approved
 
-If quorum and approval thresholds are satisfied, the proposal executes.
+OPX enables execution efficiency while preserving token-holder oversight.
 
 ---
 
-### **Governance Mode Selection**
+## **Governance Parameters**
 
-The governance mode is determined based on proposal type, urgency, and impact on treasury or protocol parameters.
+Quorum thresholds, proposal thresholds, veto mechanics, and voting durations are defined by governance parameters and may evolve through future proposals.
 
-All governance modes operate within the same overarching framework:
+All governance types remain subject to:
 
-• xDEUS defines voting power
+• Defined participation requirements
 
-• Governance parameters may evolve through approved proposals
+• Time-bound voting periods
 
-• All execution follows approved mandates
+• On-chain verifiability
+
+No capital deployment or material governance action occurs outside of these defined governance types.

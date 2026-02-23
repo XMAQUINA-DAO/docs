@@ -59,7 +59,8 @@
             "group": "DAO Governance",
             "pages": [
               "dao/g",
-              "dao/untitled-page-6"
+              "dao/untitled-page-6",
+              "dao/untitled-page-7"
             ]
           },
           {
@@ -109,8 +110,7 @@
           "dao/stakeholders",
           "introduction/humanoid",
           "introduction/untitled-page",
-          "launchpad/introduction",
-          "dao/untitled-page-7"
+          "launchpad/introduction"
         ]
       }
     ]
