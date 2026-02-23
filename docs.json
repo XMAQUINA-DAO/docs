@@ -60,22 +60,15 @@
             "pages": [
               "dao/g",
               "dao/untitled-page-6",
-              "dao/untitled-page-7"
+              "dao/untitled-page-7",
+              "dao/x-deus-and-voting-power",
+              "dao/staking-mechanics",
+              "dao/governance-parameters"
             ]
           },
           {
-            "group": "Audits & Attestations ",
-            "pages": [
-              "dao/untitled-page-5",
-              "smart-contreact-audits"
-            ]
-          },
-          {
-            "group": "Legal",
-            "pages": [
-              "dao/formation",
-              "auctions/terms"
-            ]
+            "group": "RCM Protocol",
+            "pages": []
           },
           {
             "group": "DEUS Labs",
@@ -92,8 +85,18 @@
             ]
           },
           {
-            "group": "RCM Protocol",
-            "pages": []
+            "group": "Audits & Attestations ",
+            "pages": [
+              "smart-contreact-audits",
+              "dao/untitled-page-5"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "dao/formation",
+              "auctions/terms"
+            ]
           },
           {
             "group": "Governance",
