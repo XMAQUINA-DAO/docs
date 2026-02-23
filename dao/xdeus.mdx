@@ -1,5 +1,5 @@
 ---
-title: "xDEUS & Voting Power"
+title: "xDEUS veToken Model"
 ---
 
 Governance within XMAQUINA is powered by xDEUS, a vote-escrowed governance token minted by staking DEUS.
@@ -44,29 +44,35 @@ Governance influence reflects both capital commitment and time commitment.
 
 ---
 
-## **Time-Weighted Governance Model**
+## **Multiplier Mechanics**
 
-Effective voting power is determined by:
+Effective multiplier is determined by:
 
 • The amount of DEUS staked
 
 • The duration DEUS remains staked
 
-Each DEUS token begins with a base multiplier of 1x voting power.
+Each DEUS token begins with a base multiplier of 1x.
 
-The multiplier increases progressively over time, reaching a maximum of 12x after 12 months of continuous staking.
+The multiplier increases progressively over time and reaches a maximum of 12x after 12 months of continuous staking.
 
 Although multiplier updates occur per governance epoch, time progression is commonly referenced in monthly intervals for simplicity.
+
+The same multiplier applies to:
+
+• Voting power in governance proposals
+
+• Share of staking reward distributions, where applicable
 
 ### **Example**
 
 If 100 DEUS is staked:
 
-• At staking start: 100 effective voting power
+• At staking start: 100 effective voting power and 1x reward weight
 
-• Over time: governance weight increases gradually
+• Over time: both governance weight and reward multiplier increase progressively
 
-• After reaching maximum duration: up to 1,200 effective voting power
+• After reaching maximum duration: up to 1,200 effective voting power and 12x reward weight
 
 The multiplier caps at 12x and does not increase further beyond that threshold.
 
@@ -132,16 +138,28 @@ Because staking positions are soulbound:
 
 ---
 
-## **Governance Alignment**
+## **Governance & Incentive Alignment**
 
-By requiring DEUS to be staked for governance participation, the DAO ensures:
+By linking both voting power and reward allocation to staking duration, XMAQUINA aligns governance authority with long-term participation.
 
-• Long-term alignment between token holders and protocol growth
+The same multiplier-weighted balance governs:
 
-• Reduced exposure to short-term governance manipulation
+• Voting authority
 
-• Incentivized ecosystem contribution
+• Quorum weight
 
-• Stable and accountable decision-making
+• Veto power
 
-All governance types, including BOT, XMQ, OPX, and CDG proposals, rely on xDEUS for voting and veto authority.
+• Reward allocation, where applicable
+
+This structure:
+
+• Incentivizes sustained commitment
+
+• Reduces short-term governance manipulation
+
+• Aligns rewards with long-term contributors
+
+• Encourages ecosystem stewardship
+
+Governance influence and incentive allocation operate through a unified multiplier model.

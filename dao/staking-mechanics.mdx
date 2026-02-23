@@ -10,83 +10,110 @@ Staking is non-custodial and governed by smart contracts.
 
 ---
 
-## **Staking DEUS**
+## **Position-Based Staking**
 
-To participate in governance:
+Staking is position-based.
 
-1. Connect your wallet to the DAO Portal.
-2. Select the amount of DEUS to stake.
-3. Confirm the staking transaction.
+Each time DEUS is staked:
 
-Once the transaction is confirmed:
+• A new soulbound NFT is minted
 
-• DEUS becomes locked in the staking contract
+• The NFT represents that specific staked amount
 
-• xDEUS is minted to your wallet
+• Multiplier accrual is tracked independently for that position
 
-• Governance voting power becomes active
+Example:
 
-xDEUS is non-transferable and remains tied to the staking wallet.
+If a participant stakes:
 
----
+• 100 DEUS → one staking position is created
 
-## **Voting Activation**
+• Later stakes 200 DEUS → a second staking position is created
 
-Voting power becomes active once DEUS is successfully staked.
+Each position:
 
-Voting weight is determined by:
+• Accrues multiplier independently
 
-• The amount of DEUS staked
+• Has its own staking duration
 
-• The time DEUS remains staked
+• Can be withdrawn independently
 
-Voting balances update according to governance-defined epoch intervals.
+Total voting power equals the sum of all active staking positions.
 
 ---
 
-## **Minimum Stake Duration**
+## **Minimum Staking Requirements**
 
-DEUS must remain staked for a minimum of 5 days before a withdrawal request can be initiated.
+To create a staking position:
 
-This minimum duration supports governance stability and prevents short-term voting manipulation.
+• Minimum stake per position: 100 DEUS
 
----
+• Minimum lock before withdrawal request: 5 days
 
-## **Withdrawal Request**
+Both parameters are governance-configurable.
 
-To withdraw staked DEUS:
-
-1. Submit a withdrawal request through the DAO Portal.
-2. A cooldown period begins.
-
-During the cooldown period:
-
-• xDEUS voting power is disabled
-
-• DEUS remains locked
+A minimum of 100 DEUS must be deposited in a single staking transaction to create a governance position.
 
 ---
 
-## **Cooldown Period**
+## **Multiplier & Reward Accrual**
 
-A 5-day cooldown period  applies after initiating withdrawal.
+Each staking position begins with a 1x multiplier.
 
-Once the cooldown period ends:
+The multiplier increases progressively over time and reaches a maximum of 12x after 12 months of continuous staking.
 
-• DEUS becomes available for withdrawal
+Multiplier updates occur per governance epoch.
 
-• xDEUS is burned
+Effective weight per position:
 
-• Governance voting rights are removed
+Staked DEUS × Position Multiplier
+
+The same multiplier governs:
+
+• Voting power
+
+• Quorum participation
+
+• Reward allocation, where applicable
+
+The multiplier caps at 12x.
 
 ---
 
-## **Important Notes**
+## **Withdrawal Process**
 
-• Staked DEUS cannot be transferred while locked.
+Unstaking occurs per staking position.
 
-• xDEUS cannot be transferred between wallets.
+To withdraw a position:
 
-• Governance rights are tied to the staking wallet.
+1. A withdrawal request is initiated
+2. A cooldown period begins
+3. After cooldown expires, the DEUS from that position becomes withdrawable
 
-• All staking and withdrawal actions are executed on-chain.
+Cooldown period: 5 days
+
+This parameter is governance-configurable.
+
+During withdrawal:
+
+• The position’s governance and reward multiplier is removed
+
+• The associated soulbound NFT is burned
+
+Other active staking positions remain unaffected.
+
+---
+
+## **Principal Return**
+
+Unstaking returns the exact amount of DEUS associated with that staking position.
+
+There is:
+
+• No slashing
+
+• No dilution
+
+• No protocol-imposed loss of principal
+
+If DEUS is restaked after withdrawal, a new staking position is created and begins again at the base 1x multiplier.
