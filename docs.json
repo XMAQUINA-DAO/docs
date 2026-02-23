@@ -68,6 +68,14 @@
             ]
           },
           {
+            "group": "DEUS Token",
+            "pages": [
+              "deus-token/tokenomics",
+              "deus-token/vetoken",
+              "deus-token/mnav"
+            ]
+          },
+          {
             "group": "RCM Protocol",
             "pages": []
           },
@@ -75,14 +83,6 @@
             "group": "DEUS Labs",
             "pages": [
               "deus-labs/introduction"
-            ]
-          },
-          {
-            "group": "DEUS Token",
-            "pages": [
-              "deus-token/tokenomics",
-              "deus-token/vetoken",
-              "deus-token/mnav"
             ]
           },
           {
