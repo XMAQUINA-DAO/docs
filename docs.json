@@ -63,7 +63,7 @@
               "dao/governance-types",
               "dao/xdeus",
               "dao/staking-mechanics",
-              "dao/rewards",
+              "dao/governance-rewards",
               "dao/governance-parameters"
             ]
           },

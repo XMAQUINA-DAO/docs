@@ -1,4 +1,123 @@
 ---
-title: 'Governance Parameters'
+title: "Governance Parameters"
 ---
 
+Governance parameters define the operational mechanics of proposal approval, staking configuration, and voting thresholds within XMAQUINA.
+
+All parameters are configurable through approved governance proposals.
+
+Nothing in this section is permanently fixed.
+
+---
+
+## **Voting Thresholds**
+
+Governance proposals may be subject to quorum requirements depending on proposal type.
+
+For explicit voting proposals (e.g., BOT, XMQ):
+
+• A minimum quorum threshold must be met
+
+• Approval requires majority support of participating xDEUS voting power
+
+For optimistic proposals (e.g., OPX, CDG):
+
+• Proposals pass unless vetoed within the defined veto window
+
+• A minimum veto participation threshold may apply
+
+Quorum thresholds are governance-configurable.
+
+---
+
+## **Voting Duration**
+
+Voting duration is defined per proposal type and may vary depending on urgency and context.
+
+Typical duration:
+
+• One governance epoch
+
+Voting periods are configurable through governance.
+
+---
+
+## **Veto Window**
+
+Optimistic governance proposals include a defined veto period during which xDEUS holders may block execution.
+
+• The veto window duration is governance-configurable
+
+• If veto conditions are met within the window, the proposal does not execute
+
+---
+
+## **Staking Parameters**
+
+The veToken model operates under configurable staking parameters.
+
+Current configuration:
+
+• Minimum stake per position: 100 DEUS
+
+• Multiplier cap: 12x
+
+• Minimum time before withdrawal request: 5 days
+
+• Withdrawal cooldown period: 5 days
+
+All staking parameters are governance-configurable.
+
+---
+
+## **Multiplier Configuration**
+
+The voting and reward multiplier:
+
+• Begins at 1x
+
+• Increases progressively over time
+
+• Caps at 12x after maximum accrual duration
+
+Multiplier growth rate and cap are governance-configurable.
+
+---
+
+## **Proposal Eligibility**
+
+Certain proposal types may require:
+
+• Authorized DAO unit initiation
+
+• Minimum xDEUS threshold for community initiation
+
+Eligibility thresholds are governance-configurable.
+
+---
+
+## **Treasury Routing**
+
+Proposals are routed based on affected treasury system:
+
+• Aragon OSx for assets held within DAO smart contract treasury
+
+• Snapshot for signaling and proposals authorizing multisig-executed actions
+
+Routing logic may evolve via governance.
+
+---
+
+## **Parameter Authority**
+
+All governance parameters may be modified through approved governance proposals.
+
+Parameter updates:
+
+• Must follow standard governance process
+
+• Are publicly visible
+
+• Take effect upon approval and execution
+
+Governance authority resides exclusively with xDEUS holders.
