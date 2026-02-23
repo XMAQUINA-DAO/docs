@@ -4,67 +4,63 @@ title: "Governance Parameters"
 
 Governance parameters define the operational mechanics of proposal approval, staking configuration, and voting thresholds within XMAQUINA.
 
-All parameters are configurable through approved governance proposals.
+All governance parameters are configurable through approved governance proposals.
 
-Nothing in this section is permanently fixed.
+The governance interface reflects the current active configuration. Nothing in this section is permanently fixed.
 
 ---
 
 ## **Voting Thresholds**
 
-Governance proposals may be subject to quorum requirements depending on proposal type.
+Explicit vote proposals operate under a unified approval model.
 
-For explicit voting proposals (e.g., BOT, XMQ):
+For proposals requiring affirmative approval (e.g., BOT and XMQ):
 
-• A minimum quorum threshold must be met
+• A quorum threshold must be met
 
 • Approval requires majority support of participating xDEUS voting power
 
-For optimistic proposals (e.g., OPX, CDG):
+Quorum thresholds are defined within the governance interface and may be modified through governance.
 
-• Proposals pass unless vetoed within the defined veto window
+---
 
-• A minimum veto participation threshold may apply
+## **Optimistic Governance & Veto**
 
-Quorum thresholds are governance-configurable.
+Optimistic proposals (e.g., OPX and CDG) operate under a veto-based model.
+
+Under this structure:
+
+• Proposals execute unless vetoed within the defined veto window
+
+• A veto participation threshold must be met to block execution
+
+Veto window duration and veto thresholds are defined within the governance interface and are governance-configurable.
 
 ---
 
 ## **Voting Duration**
 
-Voting duration is defined per proposal type and may vary depending on urgency and context.
+Voting periods are defined per proposal and are visible within the governance interface.
 
-Typical duration:
+Typical voting periods align with governance epochs.
 
-• One governance epoch
-
-Voting periods are configurable through governance.
+Voting duration is governance-configurable.
 
 ---
 
-## **Veto Window**
-
-Optimistic governance proposals include a defined veto period during which xDEUS holders may block execution.
-
-• The veto window duration is governance-configurable
-
-• If veto conditions are met within the window, the proposal does not execute
-
----
-
-## **Staking Parameters**
+## **Staking Configuration**
 
 The veToken model operates under configurable staking parameters.
 
-Current configuration:
+Current configuration includes:
 
-• Minimum stake per position: 100 DEUS
+• Minimum stake per position
 
-• Multiplier cap: 12x
+• Multiplier growth model and cap
 
-• Minimum time before withdrawal request: 5 days
+• Minimum lock duration prior to withdrawal request
 
-• Withdrawal cooldown period: 5 days
+• Withdrawal cooldown period
 
 All staking parameters are governance-configurable.
 
@@ -72,13 +68,15 @@ All staking parameters are governance-configurable.
 
 ## **Multiplier Configuration**
 
-The voting and reward multiplier:
+Governance weight and reward weight are determined by a time-weighted multiplier.
 
-• Begins at 1x
+The multiplier:
+
+• Begins at a base value upon staking
 
 • Increases progressively over time
 
-• Caps at 12x after maximum accrual duration
+• Caps at a defined maximum
 
 Multiplier growth rate and cap are governance-configurable.
 
@@ -88,36 +86,34 @@ Multiplier growth rate and cap are governance-configurable.
 
 Certain proposal types may require:
 
-• Authorized DAO unit initiation
+• Initiation by authorized DAO units
 
-• Minimum xDEUS threshold for community initiation
+• A minimum xDEUS threshold for community initiation
 
-Eligibility thresholds are governance-configurable.
+Eligibility thresholds are governance-configurable and visible within the governance interface.
 
 ---
 
 ## **Treasury Routing**
 
-Proposals are routed based on affected treasury system:
+Proposals are routed based on the treasury system they affect:
 
 • Aragon OSx for assets held within DAO smart contract treasury
 
-• Snapshot for signaling and proposals authorizing multisig-executed actions
+• Snapshot for signaling votes and proposals authorizing multisig-executed actions
 
-Routing logic may evolve via governance.
+Routing logic may evolve through governance.
 
 ---
 
 ## **Parameter Authority**
 
-All governance parameters may be modified through approved governance proposals.
+All governance parameters:
 
-Parameter updates:
+• Are publicly visible through governance venues
 
-• Must follow standard governance process
+• May be updated via approved governance proposals
 
-• Are publicly visible
-
-• Take effect upon approval and execution
+• Take effect upon successful approval and execution
 
 Governance authority resides exclusively with xDEUS holders.
