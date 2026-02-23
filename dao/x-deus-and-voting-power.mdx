@@ -4,7 +4,7 @@ title: "xDEUS & Voting Power"
 
 Governance within XMAQUINA is powered by xDEUS, a vote-escrowed governance token minted by staking DEUS.
 
-DEUS must be staked to participate in governance. xDEUS represents locked voting power and aligns long-term participation with governance influence.
+DEUS must be staked to participate in governance. xDEUS represents locked governance position and aligns long-term participation with decision-making influence.
 
 ---
 
@@ -28,7 +28,7 @@ xDEUS is soulbound and cannot be transferred between wallets.
 
 ## **veToken Model**
 
-XMAQUINA uses a vote-escrow (veToken) model to align governance influence with long-term commitment.
+XMAQUINA uses a vote-escrow model to align governance influence with long-term commitment.
 
 Under this structure:
 
@@ -36,41 +36,99 @@ Under this structure:
 
 • xDEUS is minted
 
-• Voting power increases with staking duration
+• Governance weight increases with staking duration
 
-This design encourages sustained participation and reduces short-term governance volatility.
+This model rewards sustained participation and reduces short-term governance volatility.
 
 Governance influence reflects both capital commitment and time commitment.
 
 ---
 
-## **Voting Power Calculation**
+## **Time-Weighted Governance Model**
 
-Voting power is determined by:
+Effective voting power is determined by:
 
 • The amount of DEUS staked
 
-• The duration of time DEUS remains staked
+• The duration DEUS remains staked
 
-Longer staking durations increase effective governance weight.
+Each DEUS token begins with a base multiplier of 1x voting power.
 
-Voting power will adjust dynamically based on governance-defined parameters and epoch updates.
+The multiplier increases progressively over time, reaching a maximum of 12x after 12 months of continuous staking.
+
+Although multiplier updates occur per governance epoch, time progression is commonly referenced in monthly intervals for simplicity.
+
+### **Example**
+
+If 100 DEUS is staked:
+
+• At staking start: 100 effective voting power
+
+• Over time: governance weight increases gradually
+
+• After reaching maximum duration: up to 1,200 effective voting power
+
+The multiplier caps at 12x and does not increase further beyond that threshold.
+
+---
+
+## **Unstaking and  Multiplier Reset**
+
+If DEUS is unstaked:
+
+• xDEUS is burned
+
+• Voting power resets
+
+• Any future staking begins again at the base 1x multiplier
+
+For example:
+
+If 100 DEUS has been staked for 12 months, it may have reached the maximum 12x multiplier, resulting in:
+
+• 1,200 effective voting power
+
+If that stake is withdrawn:
+
+• The 1,200 governance weight is eliminated
+
+• xDEUS is burned
+
+If the same 100 DEUS is later restaked:
+
+• Voting power restarts at 100
+
+• Multiplier accrues again over time
+
+• Maximum weight must be rebuilt through continuous staking
+
+This structure reinforces long-term alignment by rewarding sustained participation rather than short-term staking cycles.
 
 ---
 
 ## **Soulbound Design**
 
-xDEUS is non-transferable.
+xDEUS staking positions are represented as non-transferable soulbound NFTs.
 
-It cannot be:
+Each staking transaction mints a distinct NFT corresponding to that specific stake.
 
-• Sold
+These NFTs:
 
-• Transferred
+• Cannot be sold
 
-• Freely delegated outside governance logic
+• Cannot be transferred
 
-This ensures governance rights remain tied to participants who have staked DEUS.
+• Cannot be delegated outside governance logic
+
+Governance rights remain strictly tied to the wallet that initiated the stake.
+
+Because staking positions are soulbound:
+
+• Governance weight cannot be traded
+
+• Voting power cannot be transferred independently of the underlying stake
+
+• Participation remains aligned with long-term capital commitment
 
 ---
 
