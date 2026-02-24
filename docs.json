@@ -72,6 +72,15 @@
             "pages": []
           },
           {
+            "group": "DEUS Token",
+            "pages": [
+              "dao/tokenomics",
+              "dao/token-utility",
+              "dao/token-contracts",
+              "dao/vesting-and-emissions"
+            ]
+          },
+          {
             "group": "DEUS Labs",
             "pages": [
               "deus-labs/introduction"
@@ -100,21 +109,15 @@
             ]
           },
           {
-            "group": "DEUS Token",
-            "hidden": true,
+            "group": "OLD DEUS Token",
             "pages": [
               "deus-token/tokenomics",
               "deus-token/vetoken",
               "deus-token/mnav"
             ]
           },
-          "dao/scoring-commitee",
           "dao/execution-engine",
           "misc/glossary",
-          "dao/treasury",
-          "dao/stakeholders",
-          "introduction/humanoid",
-          "introduction/untitled-page",
           "launchpad/introduction"
         ]
       }
