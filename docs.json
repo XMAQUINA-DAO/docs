@@ -72,8 +72,8 @@
             "pages": [
               "dao/tokenomics",
               "dao/token-utility",
-              "dao/token-contracts",
-              "dao/vesting-and-emissions"
+              "dao/vesting-and-emissions",
+              "dao/token-contracts"
             ]
           },
           {
