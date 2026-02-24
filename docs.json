@@ -101,6 +101,7 @@
           },
           {
             "group": "DEUS Token",
+            "hidden": true,
             "pages": [
               "deus-token/tokenomics",
               "deus-token/vetoken",
