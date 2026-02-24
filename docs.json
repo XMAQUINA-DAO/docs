@@ -68,10 +68,6 @@
             ]
           },
           {
-            "group": "RCM Protocol",
-            "pages": []
-          },
-          {
             "group": "DEUS Token",
             "pages": [
               "dao/tokenomics",
@@ -79,6 +75,10 @@
               "dao/token-contracts",
               "dao/vesting-and-emissions"
             ]
+          },
+          {
+            "group": "RCM Protocol",
+            "pages": []
           },
           {
             "group": "DEUS Labs",
