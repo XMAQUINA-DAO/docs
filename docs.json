@@ -110,6 +110,7 @@
           },
           {
             "group": "OLD DEUS Token",
+            "hidden": true,
             "pages": [
               "deus-token/tokenomics",
               "deus-token/vetoken",
