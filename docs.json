@@ -68,14 +68,6 @@
             ]
           },
           {
-            "group": "DEUS Token",
-            "pages": [
-              "deus-token/tokenomics",
-              "deus-token/vetoken",
-              "deus-token/mnav"
-            ]
-          },
-          {
             "group": "RCM Protocol",
             "pages": []
           },
@@ -105,6 +97,14 @@
             "pages": [
               "governance/v1",
               "governance/v2"
+            ]
+          },
+          {
+            "group": "DEUS Token",
+            "pages": [
+              "deus-token/tokenomics",
+              "deus-token/vetoken",
+              "deus-token/mnav"
             ]
           },
           "dao/scoring-commitee",
