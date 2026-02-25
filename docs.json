@@ -85,7 +85,7 @@
           {
             "group": "DEUS Labs",
             "pages": [
-              "deus-labs/introduction"
+              "deus-labs-overview"
             ]
           },
           {
@@ -100,6 +100,13 @@
             "pages": [
               "dao/formation",
               "auctions/terms"
+            ]
+          },
+          {
+            "group": "DEUS Labs",
+            "hidden": true,
+            "pages": [
+              "deus-labs/introduction"
             ]
           },
           {
