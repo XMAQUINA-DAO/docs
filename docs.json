@@ -33,15 +33,15 @@
           {
             "group": "Introduction",
             "pages": [
-              "introduction/home",
-              "introduction/ecosystem-architecture",
+              "introduction/XMAQUINA",
+              "introduction/eco-architecture",
               "introduction/core-principles"
             ]
           },
           {
             "group": " Humanoid Strategy",
             "pages": [
-              "introduction/core-thesis"
+              "humanoid/core-thesis"
             ]
           },
           {
@@ -79,7 +79,7 @@
           {
             "group": "Robotics Capital Markets",
             "pages": [
-              "untitled-page"
+              "rcm-protocol"
             ]
           },
           {
@@ -101,34 +101,7 @@
               "dao/formation",
               "auctions/terms"
             ]
-          },
-          {
-            "group": "DEUS Labs",
-            "hidden": true,
-            "pages": [
-              "deus-labs/introduction"
-            ]
-          },
-          {
-            "group": "Governance",
-            "hidden": true,
-            "pages": [
-              "governance/v1",
-              "governance/v2"
-            ]
-          },
-          {
-            "group": "OLD DEUS Token",
-            "hidden": true,
-            "pages": [
-              "deus-token/tokenomics",
-              "deus-token/vetoken",
-              "deus-token/mnav"
-            ]
-          },
-          "dao/execution-engine",
-          "misc/glossary",
-          "launchpad/introduction"
+          }
         ]
       }
     ]
