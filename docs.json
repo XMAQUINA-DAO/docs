@@ -39,7 +39,7 @@
             ]
           },
           {
-            "group": " Humanoid Strategy",
+            "group": "Humanoid Strategy",
             "pages": [
               "humanoid/core-thesis"
             ]
@@ -89,9 +89,9 @@
             ]
           },
           {
-            "group": "Audits & Attestations ",
+            "group": "Audits & Attestations",
             "pages": [
-              "smart-contreact-audits",
+              "smart-contract-audits",
               "dao/attestations"
             ]
           },
