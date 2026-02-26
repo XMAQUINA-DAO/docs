@@ -33,7 +33,9 @@
           {
             "group": "Welcome",
             "pages": [
-              "introduction/XMAQUINA"
+              "introduction/XMAQUINA",
+              "introduction/eco-architecture",
+              "introduction/core-principles"
             ]
           }
         ]
@@ -41,13 +43,6 @@
       {
         "tab": "The DAO",
         "pages": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "introduction/eco-architecture",
-              "introduction/core-principles"
-            ]
-          },
           {
             "group": "Humanoid Strategy",
             "pages": [
