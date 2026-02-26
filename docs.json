@@ -47,7 +47,7 @@
         ]
       },
       {
-        "tab": "The DAO",
+        "tab": "XMAQUINA DAO",
         "pages": [
           {
             "group": "XMAQUINA DAO",
@@ -73,21 +73,6 @@
             ]
           },
           {
-            "group": "DEUS Token",
-            "pages": [
-              "dao/tokenomics",
-              "dao/token-utility",
-              "dao/vesting-and-emissions",
-              "dao/token-contracts"
-            ]
-          },
-          {
-            "group": "DEUS Labs",
-            "pages": [
-              "deus-labs-overview"
-            ]
-          },
-          {
             "group": "Audits & Attestations",
             "pages": [
               "smart-contract-audits",
@@ -104,12 +89,37 @@
         ]
       },
       {
-        "tab": "The RCM",
+        "tab": "DEUS Token",
+        "pages": [
+          {
+            "group": "DEUS Token",
+            "pages": [
+              "dao/tokenomics",
+              "dao/token-utility",
+              "dao/vesting-and-emissions",
+              "dao/token-contracts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "RCM Protocol",
         "pages": [
           {
             "group": "Robotics Capital Markets",
             "pages": [
               "rcm-protocol"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "DEUS Labs",
+        "pages": [
+          {
+            "group": "DEUS Labs",
+            "pages": [
+              "deus-labs-overview"
             ]
           }
         ]
