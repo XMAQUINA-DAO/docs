@@ -28,12 +28,22 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Welcome",
+        "pages": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction/XMAQUINA"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "The DAO",
         "pages": [
           {
             "group": "Introduction",
             "pages": [
-              "introduction/XMAQUINA",
               "introduction/eco-architecture",
               "introduction/core-principles"
             ]
@@ -77,12 +87,6 @@
             ]
           },
           {
-            "group": "Robotics Capital Markets",
-            "pages": [
-              "rcm-protocol"
-            ]
-          },
-          {
             "group": "DEUS Labs",
             "pages": [
               "deus-labs-overview"
@@ -100,6 +104,17 @@
             "pages": [
               "dao/formation",
               "auctions/terms"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "The RCM",
+        "pages": [
+          {
+            "group": "Robotics Capital Markets",
+            "pages": [
+              "rcm-protocol"
             ]
           }
         ]
