@@ -35,7 +35,12 @@
             "pages": [
               "introduction/XMAQUINA",
               "introduction/eco-architecture",
-              "introduction/core-principles",
+              "introduction/core-principles"
+            ]
+          },
+          {
+            "group": "Humanoid Strategy",
+            "pages": [
               "humanoid/core-thesis"
             ]
           }
