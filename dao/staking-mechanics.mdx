@@ -1,15 +1,14 @@
 ---
 title: "Staking Mechanics"
-description: "Position-based DEUS staking mechanics including minimum requirements, multiplier accrual, withdrawal cooldowns, and principal return."
 ---
+
+Position-based DEUS staking mechanics including minimum requirements, multiplier accrual, withdrawal cooldowns, and principal return.
 
 DEUS staking converts DEUS into xDEUS, enabling governance participation.
 
 Staking and withdrawal are executed through the [Stake](https://dao.xmaquina.io/stake) interface on the DAO Portal.
 
 Staking is non-custodial and governed by smart contracts.
-
----
 
 ## **Position-Based Staking**
 
@@ -23,7 +22,7 @@ Each time DEUS is staked:
 
 • Multiplier accrual is tracked independently for that position
 
-Example:
+**Example:**
 
 If a participant stakes:
 
@@ -41,8 +40,6 @@ Each position:
 
 Total voting power equals the sum of all active staking positions.
 
----
-
 ## **Minimum Staking Requirements**
 
 To create a staking position:
@@ -54,8 +51,6 @@ To create a staking position:
 Both parameters are governance-configurable.
 
 A minimum of 100 DEUS must be deposited in a single staking transaction to create a governance position.
-
----
 
 ## **Multiplier & Reward Accrual**
 
@@ -79,8 +74,6 @@ The same multiplier governs:
 
 The multiplier caps at 12x.
 
----
-
 ## **Withdrawal Process**
 
 Unstaking occurs per staking position.
@@ -102,8 +95,6 @@ During withdrawal:
 • The associated soulbound NFT is burned
 
 Other active staking positions remain unaffected.
-
----
 
 ## **Principal Return**
 
