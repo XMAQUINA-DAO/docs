@@ -131,6 +131,21 @@
     "socials": {
       "x": "https://x.com/xmaquina",
       "discord": "https://discord.gg/xmaquina"
-    }
+    },
+    "links": [
+      {
+        "header": "XMAQUINA DAO",
+        "items": [
+          {
+            "label": "DAO Portal",
+            "href": "https://dao.xmaquina.io/"
+          },
+          {
+            "label": "Website",
+            "href": "https://www.xmaquina.io/"
+          }
+        ]
+      }
+    ]
   }
 }
