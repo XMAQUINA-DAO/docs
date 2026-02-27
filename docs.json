@@ -9,7 +9,7 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#1ED612",
-    "light": "#1ED612",
+    "light": "#b7b7b8",
     "dark": "#000000"
   },
   "navbar": {
