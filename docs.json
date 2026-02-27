@@ -33,7 +33,7 @@
           {
             "group": "Welcome",
             "pages": [
-              "introduction/XMAQUINA",
+              "introduction/xmaquina",
               "introduction/eco-architecture",
               "introduction/core-principles"
             ]
