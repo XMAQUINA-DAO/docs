@@ -1,12 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "mint",
   "name": "XMAQUINA",
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
+  },
   "colors": {
     "primary": "#1ED612",
     "light": "#b7b7b8",
@@ -147,5 +150,6 @@
         ]
       }
     ]
-  }
+  },
+  "description": "Documentation"
 }
