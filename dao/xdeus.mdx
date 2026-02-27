@@ -6,6 +6,10 @@ Governance within XMAQUINA is powered by xDEUS, a vote-escrowed governance token
 
 DEUS must be staked to participate in governance. xDEUS represents a locked governance position and aligns long-term participation with decision-making influence.
 
+<Frame>
+  ![Token Structure (2)](/images/TokenStructure\(2\).png)
+</Frame>
+
 ## **What Is xDEUS**
 
 xDEUS is a non-transferable governance token minted when DEUS is staked.
@@ -46,7 +50,11 @@ Effective multiplier is determined by:
 
 Each DEUS token begins with a base multiplier of 1x.
 
-The multiplier increases progressively over time and reaches a maximum of 12x after 12 months of continuous staking.
+Voting power and reward weight increase progressively with staking duration, capped at 12x after 12 months.
+
+<Frame>
+  ![High Level Architecture (5)](/images/HighLevelArchitecture\(5\)-1.png)
+</Frame>
 
 Although multiplier updates occur per governance epoch, time progression is commonly referenced in monthly intervals for simplicity.
 
@@ -67,10 +75,6 @@ If 100 DEUS is staked:
 • After reaching maximum duration: up to 1,200 effective voting power and 12x reward weight
 
 The multiplier caps at 12x and does not increase further beyond that threshold.
-
-<Frame>
-  ![Token Structure (2)](/images/TokenStructure\(2\).png)
-</Frame>
 
 ## **Unstaking and Multiplier Reset**
 
