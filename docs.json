@@ -16,12 +16,7 @@
     "dark": "#000000"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "/discord.gg/xmaquina"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "DAO Portal",
