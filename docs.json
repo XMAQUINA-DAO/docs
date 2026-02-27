@@ -16,7 +16,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@xmaquina.io"
+        "href": "mailto:hello@xmaquina.io"
       }
     ],
     "primary": {
@@ -126,5 +126,11 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/xmaquina",
+      "discord": "https://discord.gg/xmaquina"
+    }
   }
 }
