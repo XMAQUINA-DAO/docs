@@ -4,7 +4,7 @@
   "name": "XMAQUINA",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/light.svg"
   },
   "favicon": {
     "light": "/favicon.svg",
@@ -147,7 +147,7 @@
     ]
   },
   "description": "Documentation",
-  "background": {
-    "image": "/images/Twitter_Posts_XM(6).png"
+  "thumbnails": {
+    "background": "/images/Twitter_Posts_XM.png"
   }
 }
