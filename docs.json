@@ -153,5 +153,8 @@
   },
   "styling": {
     "codeblocks": "system"
+  },
+  "seo": {
+    "indexing": "all"
   }
 }
