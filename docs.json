@@ -148,6 +148,10 @@
   },
   "description": "Documentation",
   "thumbnails": {
-    "background": "/images/Twitter_Posts_XM.png"
+    "background": "/images/Twitter_Posts_XM(1).png",
+    "appearance": "dark"
+  },
+  "styling": {
+    "codeblocks": "system"
   }
 }
