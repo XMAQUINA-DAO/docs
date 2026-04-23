@@ -68,7 +68,7 @@
               "dao/staking-mechanics",
               "dao/governance-rewards",
               "dao/governance-parameters",
-              "dao/staking-rewards"
+              "dao/staking-activation-program"
             ]
           },
           {
