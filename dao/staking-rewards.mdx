@@ -1,95 +1,107 @@
 ---
-title: "Staking Rewards"
+title: "xDEUS Activation Program"
 ---
 
-A one-time DEUS reward pool distributed to xDEUS holders to support the activation of the vote-escrow governance model.
+A fixed DEUS incentive pool allocated to xDEUS holders during the initial activation of XMAQUINA's vote-escrow governance system.
 
-To launch xDEUS governance, 1,000,000 DEUS has been allocated as a reward pool for participants who stake DEUS during the activation period.
+To support the launch of xDEUS governance, **1,000,000 DEUS** has been allocated to participants who stake DEUS during the activation period.
 
-Staking is executed through the [Stake](https://dao.xmaquina.io/stake) interface on the DAO Portal, where the staking APY is displayed in real time.
+Staking is available through the [**Stake page on the DAO Portal**](https://dao.xmaquina.io/stake), where users mint xDEUS and track estimated rewards in real time.
 
-No more than 1,000,000 DEUS will be distributed under this program.
+## **Incentive Pool**
 
-## **Reward Pool**
+- **Total allocation:** 1,000,000 DEUS
+- **Reward token:** DEUS
+- **Distribution:** vested following the activation period
 
-• Total allocation: 1,000,000 DEUS
-
-• Reward token: DEUS
-
-• Distribution: one-time, following the end of the activation period
-
-The reward pool is fixed. No additional DEUS will be emitted under this program.
+The incentive pool is fixed. No additional DEUS will be emitted.
 
 ## **Activation Period**
 
-The activation period runs for 90 days beginning when DEUS staking becomes available on the DAO Portal.
+The activation period runs for 90 days:
+
+- **Start:** May 18 at 13:00 UTC
+- **End:** August 16 at 13:00 UTC
 
 During this period:
 
-• Participants stake DEUS and mint xDEUS
+- Participants stake DEUS and mint xDEUS
+- Voting power accrues based on the [veToken multiplier](https://docs.xmaquina.io/dao/xdeus)
+- Positions held over time continue increasing reward and voting power.
 
-• Voting power accrues per the veToken multiplier
-
-• Staked positions continue building voting power as time progresses
-
-Because voting power increases the longer DEUS remains staked, earlier and sustained stakers accumulate a larger share of the reward pool by the end of the period.
+Because voting power increases with time, earlier and longer-held positions receive a larger share of the final allocation.
 
 ## **Snapshot**
 
-A single voting power snapshot is taken on Base network at the end of day 90 of the activation period.
+A single voting power snapshot is taken on the Base network at:
+
+- **August 16 at 13:00 UTC**
 
 The snapshot records:
 
-• Each wallet's multiplier-weighted voting power
+- Each wallet’s multiplier-weighted voting power
+- The total voting power across all active xDEUS positions
 
-• The total voting power across all active xDEUS positions
+Only voting power held at the snapshot is counted.\
+Positions withdrawn before the snapshot do not contribute to the allocation.
 
-Only voting power held at the snapshot is counted. Positions withdrawn before the snapshot do not contribute to the reward calculation.
+## **Allocation Calculation**
 
-## **Reward Calculation**
+Each participant’s share of the incentive pool is calculated as:
 
-Each participant's share of the reward pool is determined by:
+**User Voting Power ÷ Total Voting Power**
 
-User Voting Power ÷ Total Voting Power
-
-That ratio is applied to the 1,000,000 DEUS pool to compute the participant's allocation.
+This ratio is applied to the 1,000,000 DEUS pool to determine the participant’s final allocation.
 
 **Example:**
 
-If the snapshot records 10,000,000 total voting power and a participant holds 100,000 voting power:
+If the snapshot records:
 
-• Share: 100,000 ÷ 10,000,000 = 1%
+- **Total voting power:** 10,000,000
+- **User voting power:** 100,000
 
-• Allocation: 1% × 1,000,000 DEUS = 10,000 DEUS
+Then:
 
-This pro-rata structure means a participant's allocation depends both on how much DEUS they staked and on how long it was held relative to other stakers.
+- **Share:** 100,000 ÷ 10,000,000 = 1%
+- **Allocation:** 1% × 1,000,000 DEUS = 10,000 DEUS
 
-## **Staking APY**
+## **Estimated Staking APY**
 
-The DAO Portal displays a live staking APY based on the current reward pool and the voting power staked to date.
+The DAO Portal displays an estimated staking APY based on:
 
-As more DEUS is staked, the share allocated to any individual position adjusts accordingly. Early participants initially share the pool among fewer stakers, and their positions continue to accrue multiplier weight over the 90-day window.
+- the fixed incentive pool
+- total xDEUS participation
+
+As more DEUS is staked, the share allocated to each position adjusts.
+
+Early participants initially share the incentive pool among fewer participants, while their positions continue to accumulate multiplier weight throughout the activation period.
 
 ## **Distribution**
 
-Rewards are distributed through the [Aragon OSx Capital Distributor](https://github.com/aragon/osx-capital-distributor).
+Allocations are distributed through the [**Aragon OSx Capital Distributor**](https://github.com/aragon/osx-capital-distributor).
+
+- **Snapshot:** August 16, 2026 at 13:00 UTC
+- **Vesting start:** August 21, 2026 at 13:00 UTC (5 days after program end)
+- **Vesting duration:** 30 days (linear)
 
 After the snapshot:
 
-• Allocations are calculated from the on-chain voting power data
+- Final allocations are calculated from onchain voting power data
+- A distribution contract is deployed onchain
+- Allocations begin vesting at the time specified above
+- Participants claim vested allocations through the DAO Portal
 
-• A distribution campaign is created on-chain
-
-• Eligible participants claim their allocation through the DAO Portal
-
-Allocations are verifiable on-chain and tied to the wallet that held the xDEUS position at the snapshot.
+All allocations are verifiable onchain and tied to the wallet holding the xDEUS position at the snapshot.
 
 ## **Eligibility**
 
-To participate:
+To receive an allocation:
 
-• DEUS must be staked through the [Stake](https://dao.xmaquina.io/stake) interface before the snapshot
+- DEUS must be staked through the [Stake page on the DAO Portal](https://dao.xmaquina.io/stake) before the snapshot
+- The xDEUS position must remain active and held by the same wallet at the snapshot
 
-• The resulting xDEUS position must be active and held by the same wallet at the snapshot
+Withdrawing a position before the snapshot removes its voting power from the calculation and forfeits its allocation.
 
-Withdrawing a staking position before the snapshot removes that position's voting power from the calculation, forfeiting its share of the reward pool.
+## **Additional Information**
+
+For full details on governance mechanics, including voting, proposal execution, and multiplier design, refer to the [Governance Documentation](https://docs.xmaquina.io/dao/governance).
