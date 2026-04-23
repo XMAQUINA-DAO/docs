@@ -1,0 +1,95 @@
+---
+title: "Staking Rewards"
+---
+
+A one-time DEUS reward pool distributed to xDEUS holders to support the activation of the vote-escrow governance model.
+
+To launch xDEUS governance, 1,000,000 DEUS has been allocated as a reward pool for participants who stake DEUS during the activation period.
+
+Staking is executed through the [Stake](https://dao.xmaquina.io/stake) interface on the DAO Portal, where the staking APY is displayed in real time.
+
+No more than 1,000,000 DEUS will be distributed under this program.
+
+## **Reward Pool**
+
+• Total allocation: 1,000,000 DEUS
+
+• Reward token: DEUS
+
+• Distribution: one-time, following the end of the activation period
+
+The reward pool is fixed. No additional DEUS will be emitted under this program.
+
+## **Activation Period**
+
+The activation period runs for 90 days beginning when DEUS staking becomes available on the DAO Portal.
+
+During this period:
+
+• Participants stake DEUS and mint xDEUS
+
+• Voting power accrues per the veToken multiplier
+
+• Staked positions continue building voting power as time progresses
+
+Because voting power increases the longer DEUS remains staked, earlier and sustained stakers accumulate a larger share of the reward pool by the end of the period.
+
+## **Snapshot**
+
+A single voting power snapshot is taken on Base network at the end of day 90 of the activation period.
+
+The snapshot records:
+
+• Each wallet's multiplier-weighted voting power
+
+• The total voting power across all active xDEUS positions
+
+Only voting power held at the snapshot is counted. Positions withdrawn before the snapshot do not contribute to the reward calculation.
+
+## **Reward Calculation**
+
+Each participant's share of the reward pool is determined by:
+
+User Voting Power ÷ Total Voting Power
+
+That ratio is applied to the 1,000,000 DEUS pool to compute the participant's allocation.
+
+**Example:**
+
+If the snapshot records 10,000,000 total voting power and a participant holds 100,000 voting power:
+
+• Share: 100,000 ÷ 10,000,000 = 1%
+
+• Allocation: 1% × 1,000,000 DEUS = 10,000 DEUS
+
+This pro-rata structure means a participant's allocation depends both on how much DEUS they staked and on how long it was held relative to other stakers.
+
+## **Staking APY**
+
+The DAO Portal displays a live staking APY based on the current reward pool and the voting power staked to date.
+
+As more DEUS is staked, the share allocated to any individual position adjusts accordingly. Early participants initially share the pool among fewer stakers, and their positions continue to accrue multiplier weight over the 90-day window.
+
+## **Distribution**
+
+Rewards are distributed through the [Aragon OSx Capital Distributor](https://github.com/aragon/osx-capital-distributor).
+
+After the snapshot:
+
+• Allocations are calculated from the on-chain voting power data
+
+• A distribution campaign is created on-chain
+
+• Eligible participants claim their allocation through the DAO Portal
+
+Allocations are verifiable on-chain and tied to the wallet that held the xDEUS position at the snapshot.
+
+## **Eligibility**
+
+To participate:
+
+• DEUS must be staked through the [Stake](https://dao.xmaquina.io/stake) interface before the snapshot
+
+• The resulting xDEUS position must be active and held by the same wallet at the snapshot
+
+Withdrawing a staking position before the snapshot removes that position's voting power from the calculation, forfeiting its share of the reward pool.
