@@ -108,7 +108,10 @@
           {
             "group": "Robotics Capital Markets",
             "pages": [
-              "rcm-protocol"
+              "rcm-protocol",
+              "rcm/vision",
+              "rcm/how-it-works",
+              "rcm/roadmap"
             ]
           }
         ]
