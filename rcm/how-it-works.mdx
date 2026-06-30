@@ -1,37 +1,48 @@
 ---
 title: "How It Works"
-description: "High-level mechanism of the RCM Protocol — from allocation to onchain liquidity."
+description: "High-level mechanism of the RCM Protocol — from a gated allocation to a freely-traded onchain market."
 hidden: true
 ---
 
 <Note>
-  High-level and **directional**. Mechanics, token structure, and legal form are being finalized with counsel and **may change**. Nothing here is an offer or solicitation.
+  High-level and **directional**. Mechanics, token structure, fees, and legal form are being finalized with counsel and **may change**. Nothing here is an offer or solicitation; participation in an allocation is limited to **eligible, onboarded investors** under the applicable framework.
 </Note>
 
 ## At a glance
 
-Each robotics allocation moves through a defined lifecycle — from sourcing, to capital formation, to an open onchain market.
+Each robotics allocation moves through a defined lifecycle — from sourcing, to a **gated capital-formation round for eligible investors**, to a **freely-tradable onchain market** — with returns driven by the underlying position's own **liquidity events**.
 
 ```mermaid
 flowchart TD
-    A["Deal sourcing — XMAQUINA identifies a robotics allocation"] --> B["Capital formation — eligible participants commit capital"]
-    B --> C["SPV formed — holds the equity as shareholder of record"]
-    C --> D["Allocation token issued — represents exposure to the position"]
-    D --> E["Onchain liquidity — token paired against DEUS in a DEX pool"]
-    E --> F["Secondary market — open trading & price discovery"]
-    F --> G["Liquidity events — proceeds distributed to token holders"]
-    E --> H["Protocol fees — accrue to the DAO ecosystem"]
+    A["Deal sourcing — a robotics allocation is identified"] --> B["Gated allocation — eligible, onboarded (KYC) investors subscribe"]
+    B --> C["Issuer acquires & holds the position; issues a per-allocation note"]
+    C --> D["Post-mint lock-up — short, configurable window"]
+    D --> E["Onchain secondary market — note trades freely, paired vs DEUS"]
+    E --> F["Liquidity event — IPO / M&A / sale realises net proceeds"]
+    F --> G["Event-driven payout — to onboarded, KYC'd holders"]
 ```
 
-## The steps
+## The lifecycle
 
-1. **Deal sourcing.** XMAQUINA evaluates robotics allocation opportunities aligned with its mandate.
-2. **Capital formation.** Capital is coordinated onchain for a specific allocation. If a minimum threshold isn't reached, the allocation doesn't proceed.
-3. **SPV formation.** A dedicated Special Purpose Vehicle (SPV) holds the acquired equity and is the shareholder of record.
-4. **Token issuance.** A per-allocation token is issued, representing economic exposure to that SPV-held position.
-5. **Liquidity deployment.** The token is paired against **DEUS** in a decentralized liquidity pool, creating an open market around the allocation.
-6. **Ongoing activity.** Secondary trading enables price discovery; protocol fees accrue to the DAO ecosystem; and proceeds from liquidity events flow to token holders.
+1. **Deal sourcing.** A robotics allocation aligned with the mandate is identified and evaluated.
+2. **Gated capital formation.** Capital is raised through a **gated allocation round** open only to **eligible, onboarded investors** (KYC / eligibility checks) — **not a public sale**. If a minimum threshold isn't reached, the allocation doesn't proceed and subscriptions are returned.
+3. **Issuance.** A dedicated **issuer** acquires and holds the position (directly or via an SPV) and issues a **per-allocation note** — a **limited-recourse** claim that tracks the **net realised proceeds** of that single position. Holders do **not** receive equity, shares, or voting rights in the underlying company.
+4. **Lock-up.** Freshly-issued notes carry a short, **configurable post-mint lock-up** before they become transferable.
+5. **Onchain secondary market.** After the lock-up, the note is **freely transferable** and trades on decentralized exchanges, **paired against DEUS**. Secondary liquidity is seeded and operated by an **independent market maker** — not the issuer.
+6. **Returns.** There is **no holder-initiated redemption**. Returns are **event-driven**: when the underlying position has a **liquidity event** (e.g. IPO, acquisition, secondary sale), the net proceeds are distributed to **onboarded, KYC'd holders**.
+
+## The DEUS flywheel
+
+Every allocation market is **paired against DEUS** as the base asset, so each new allocation routes more activity through DEUS — positioning it at the center of RCM liquidity. Protocol governance oversight sits with **xDEUS** holders, and a **protocol-level fee** is designed to accrue to the DAO ecosystem *(the exact fee model is being finalized)*.
+
+## Roles, kept separate by design
+
+A core principle of the RCM Protocol is a clean separation between the regulated issuance layer and the protocol/market layers:
+
+- **Issuer** — acquires and holds the position and issues the note; runs the gated primary allocation and any payouts. Does **not** operate the market.
+- **Protocol / app layer** — the public interface and protocol infrastructure.
+- **Independent market maker** — seeds and operates secondary liquidity, on its own account.
 
 <Info>
-  Participation is intended for **eligible participants** under the applicable offering framework. Final eligibility, token terms, and the legal structure will be published as structuring completes.
+  Participation is intended for **eligible investors** under the applicable offering framework. Final eligibility, note terms, fees, and the legal structure will be published as structuring completes.
 </Info>
