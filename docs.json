@@ -105,14 +105,41 @@
       },
       {
         "tab": "RCM Protocol",
-        "pages": [
+        "groups": [
           {
-            "group": "Robotics Capital Markets",
+            "group": "RCM Fundamentals",
             "pages": [
-              "rcm-protocol",
-              "rcm/vision",
-              "rcm/how-it-works",
-              "rcm/roadmap"
+              "untitled-page",
+              "untitled-page-2",
+              "untitled-page-3",
+              "untitled-page-4"
+            ]
+          },
+          {
+            "group": "Investing Through RCM",
+            "pages": [
+              "investor-eligibility-and-onboarding",
+              "primary-offerings"
+            ]
+          },
+          {
+            "group": "Markets & Liquidity",
+            "pages": [
+              "secondary-markets",
+              "realisation-and-distributions"
+            ]
+          },
+          {
+            "group": "Protocol Infrastructure",
+            "pages": [
+              "fees-and-protocol-economics",
+              "smart-contracts-and-security"
+            ]
+          },
+          {
+            "group": "Legal & Disclosures",
+            "pages": [
+              "legal-documents-and-risks"
             ]
           }
         ]
