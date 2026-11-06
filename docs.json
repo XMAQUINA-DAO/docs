@@ -54,8 +54,7 @@
               "dao/treasury-dao",
               "dao/genesis-auctions",
               "dao/deus-governance",
-              "dao/sub-daos",
-              "dao/legal-structure"
+              "dao/sub-daos"
             ]
           },
           {
