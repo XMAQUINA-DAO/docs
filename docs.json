@@ -31,7 +31,7 @@
           {
             "group": "Welcome",
             "pages": [
-              "introduction/xmaquina",
+              "overview",
               "introduction/eco-architecture",
               "introduction/core-principles"
             ]
@@ -50,7 +50,7 @@
           {
             "group": "XMAQUINA DAO",
             "pages": [
-              "dao/overview-dao",
+              "dao/dao-overview",
               "dao/treasury-dao",
               "dao/genesis-auctions",
               "dao/deus-governance",
