@@ -2,50 +2,47 @@
 title: "Protocol Architecture"
 ---
 
-RCM connects private robotics investments with blockchain infrastructure, creating a structured foundation for investment access, onchain asset issuance and potential secondary market participation.
+RCM combines a legal investment framework with blockchain infrastructure to represent private robotics investments through onchain financial instruments.
 
-Through this architecture, eligible investors can acquire contractual economic exposure to selected private robotics investments in a form that supports onchain representation and transferability.
+Each investment is structured as a separate Series under the RCM Note Program, with defined economic rights, underlying assets and issuance arrangements.
 
-Each RCM Asset is associated with a defined underlying investment position, establishing a clear relationship between the financial instrument held by investors and the economic performance of that investment.
+## Core Architecture
 
-## **Core Architecture**
+The RCM architecture consists of the following components:
 
-The RCM architecture brings together the following components.
+- **Underlying Investment.** The private robotics investment associated with a Series, which may consist of shares or other investment interests held by the Issuer.
+- **Issuer.** Humanoid Holdings Ltd. issues the Notes, holds the underlying investments and administers the contractual obligations associated with each Series.
+- **RCM Series.** A defined investment arrangement under the RCM Note Program, with its own underlying investment, financial terms and Limited Recourse Pool.
+- **RCM Notes.** Financial instruments issued by Humanoid Holdings Ltd. that provide contractual economic exposure to the underlying investment associated with a Series.
+- **RCM Assets.** The onchain representations of RCM Notes, designed for transferability and compatibility with blockchain infrastructure.
+- **Limited Recourse Pools.** Separate pools of assets and proceeds associated with each Series, establishing the economic resources available to satisfy the obligations under its Notes.
 
-- **Underlying Investment Position.** Each RCM Asset is associated with a defined private robotics investment position. The underlying investment provides the economic foundation for the asset and its potential financial outcomes.
-- **Issuer.** Humanoid Holdings Ltd issues the financial instruments through which investors acquire contractual economic exposure to the underlying investment positions.
-- **RCM Interest Notes.** These instruments establish contractual economic rights associated with each underlying investment position, including entitlement to an applicable share of Attributable Net Proceeds, if any, following realisation.
-- **RCM Assets.** RCM Assets represent the corresponding financial instruments onchain, supporting issuance, transfers and potential interaction with compatible secondary market infrastructure.
-- **Limited Recourse Pools.** Each investment arrangement has an associated Limited Recourse Pool, allowing the assets, proceeds and economic outcomes attributable to different underlying investments to be accounted for separately.
+![RCM Architecture](/images/RCM-Architecture.png "RCM Architecture")
 
-## **Connecting Private Investments to Onchain Markets**
+## Legal and Onchain Infrastructure
 
-RCM combines two complementary layers to connect private investment structures with blockchain infrastructure.
+RCM operates through two complementary layers.
 
-The **legal layer** establishes the financial instruments, economic rights and contractual arrangements associated with each underlying investment position.
+The legal layer establishes the ownership of underlying investments, the issuance of Notes and the contractual economic rights of Noteholders. Each Series is governed by its applicable offering documentation.
 
-The **onchain layer** operates on Base and uses smart contracts to support investor eligibility controls, USDC subscriptions, allocation, RCM Asset issuance and settlement. It also provides the technical foundation for asset transfers and potential interaction with compatible secondary market infrastructure.
+The onchain layer uses blockchain infrastructure and [**smart contracts**](https://docs.xmaquina.io/smart-contracts-and-security) to support subscriptions, allocations, Asset issuance, transfers and settlement.
 
-Together, these layers provide the foundation for RCM Assets to move beyond primary issuance and potentially interact with independently operated secondary markets.
+The Securities Ledger records ownership of the Notes in accordance with the applicable legal framework, linking onchain holdings to the contractual rights associated with each Series.
 
-Where such markets develop, RCM Assets may support price discovery and transfers of economic exposure while the underlying robotics investment remains privately held.
+Once transferable, [**RCM Assets**](https://docs.xmaquina.io/understanding-rcm-assets) can be held in compatible wallets, transferred onchain and traded on independent [**secondary markets**](https://docs.xmaquina.io/secondary-markets).
 
-Market availability and participation remain subject to applicable legal requirements and independent market activity.
+## Investment Separation
 
-## **Investment Separation**
+Each Series has its own Limited Recourse Pool, underlying investment and associated records.
 
-Each underlying investment arrangement is established as a separate Series under the RCM Note Programme, with its own associated Limited Recourse Pool and records.
+The assets, proceeds and obligations attributable to each Series are accounted for separately. Noteholders' economic rights are limited to the assets and proceeds available under the applicable Series terms.
 
-This structure allows different robotics investment positions to be represented through distinct RCM Assets, each with its own underlying economic exposure.
+This structure allows multiple private robotics investments to be represented through distinct RCM Assets under a common issuance framework.
 
-The financial outcome of each arrangement is determined by its associated underlying position and the applicable contractual terms.
+## Governance and Administration
 
-## **Governance and Administration**
+XMAQUINA develops the RCM Protocol and its supporting infrastructure, while Humanoid Holdings Ltd. acts as the Issuer under the RCM Note Program.
 
-XMAQUINA develops the RCM Protocol and its supporting blockchain infrastructure, while Humanoid Holdings Ltd acts as the Issuer of the financial instruments under the RCM Note Programme.
+The Issuer administers the underlying investments, issuance arrangements, Securities Ledger and [**distributions**](https://docs.xmaquina.io/realization-distributions) associated with each Series.
 
-Smart contracts support onchain issuance and transfers, while the Issuer maintains the Securities Ledger and administers the associated contractual rights.
-
-The architecture combines the transferability and interoperability of blockchain infrastructure with the legal framework governing private market financial instruments.
-
-The rights and obligations associated with each RCM Asset are defined by the applicable offering documents.
+The rights and obligations of Noteholders are established by the applicable legal and offering documents.
