@@ -109,15 +109,15 @@
             "group": "RCM Fundamentals",
             "pages": [
               "rcm-protocol",
-              "untitled-page-2",
-              "untitled-page-4",
-              "untitled-page-3"
+              "protocol-architecture",
+              "understanding-rcm-assets",
+              "how-rcm-works"
             ]
           },
           {
             "group": "Investing Through RCM",
             "pages": [
-              "investor-eligibility-and-onboarding",
+              "investor-eligibility",
               "primary-offerings"
             ]
           },
@@ -126,7 +126,7 @@
             "pages": [
               "nav-and-market-pricing",
               "secondary-markets",
-              "realisation-and-distributions"
+              "realization-distributions"
             ]
           },
           {
@@ -139,7 +139,7 @@
           {
             "group": "Legal & Disclosures",
             "pages": [
-              "legal-documents-and-risks"
+              "risks-important-information"
             ]
           }
         ]
