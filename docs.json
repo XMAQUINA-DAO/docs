@@ -111,7 +111,8 @@
               "rcm-protocol",
               "protocol-architecture",
               "understanding-rcm-assets",
-              "how-rcm-works"
+              "how-rcm-works",
+              "fees-and-protocol-economics"
             ]
           },
           {
@@ -127,13 +128,6 @@
               "nav-and-market-pricing",
               "secondary-markets",
               "realization-distributions"
-            ]
-          },
-          {
-            "group": "Protocol Infrastructure",
-            "pages": [
-              "fees-and-protocol-economics",
-              "smart-contracts-and-security"
             ]
           },
           {
