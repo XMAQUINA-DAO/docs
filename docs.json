@@ -67,9 +67,9 @@
               "dao/staking-mechanics",
               "dao/governance-rewards",
               "dao/governance-parameters",
-              "dao/staking-activation-program",
-              "dao/staking-activation-program-2",
-              "x-deus-staking-program-3"
+              "dao/staking-program-1",
+              "dao/staking-program-2",
+              "dao/staking-program-3"
             ]
           },
           {

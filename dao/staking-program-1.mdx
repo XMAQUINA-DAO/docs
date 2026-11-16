@@ -1,12 +1,12 @@
 ---
-title: "xDEUS Staking Program II"
+title: "xDEUS Staking Program I"
 ---
 
-A fixed DEUS incentive pool allocated to xDEUS holders during the second xDEUS staking incentive period.
+A fixed DEUS incentive pool allocated to xDEUS holders during the initial activation of XMAQUINA's vote-escrow governance system.
 
-Following the completion of xDEUS Staking Program I, a further 1,000,000 DEUS has been allocated to xDEUS holders participating in the second 90 day governance program. Existing staking positions remain active and retain their accumulated governance and reward weight throughout the program.
+To support the launch of xDEUS governance, **1,000,000 DEUS** has been allocated to participants who stake DEUS during the activation period.
 
-Staking is available through the [Stake page on the DAO Portal](https://dao.xmaquina.io/stake), where users mint xDEUS and track estimated rewards in real time.
+Staking is available through the [**Stake page on the DAO Portal**](https://dao.xmaquina.io/stake), where users mint xDEUS and track estimated rewards in real time.
 
 ## **Incentive Pool**
 
@@ -16,42 +16,33 @@ Staking is available through the [Stake page on the DAO Portal](https://dao.xmaq
 
 The incentive pool is fixed. No additional DEUS will be emitted.
 
-## **Program Period**
+## **Activation Period**
 
 The activation period runs for 90 days:
 
-- **Start:** August 17, 2026 at 13:00 UTC
-- **End:** November 15, 2026 at 13:00 UTC
+- **Start:** May 18 at 13:00 UTC
+- **End:** August 16 at 13:00 UTC
 
 During this period:
 
 - Participants stake DEUS and mint xDEUS
 - Voting power accrues based on the [veToken multiplier](https://docs.xmaquina.io/dao/xdeus)
-- Existing staking positions retain their accumulated governance weight and continue accruing multiplier weight.
-- New staking positions begin accruing multiplier weight from the time they are created.
+- Positions held over time continue increasing reward and voting power.
 
-Because governance weight increases with staking duration, earlier and longer-held positions receive a larger share of the final allocation.
-
-## **Existing Staking Positions**
-
-Existing staking positions automatically continue into Program II.
-
-No migration, unstaking or restaking is required.
-
-Staking positions retain their accumulated governance weight and continue accruing multiplier weight while they remain active.
+Because voting power increases with time, earlier and longer-held positions receive a larger share of the final allocation.<br /><br />Positions are considered from the official staking activation point on May 11 at 13:00 UTC, and any multiplier accrued prior to this is not counted.
 
 ## **Snapshot**
 
 A single voting power snapshot is taken on the Base network at:
 
-- **November 15, 2026 at 13:00 UTC**
+- **August 16 at 13:00 UTC**
 
 The snapshot records:
 
 - Each wallet’s multiplier-weighted voting power
 - The total voting power across all active xDEUS positions
 
-Only voting power held at the snapshot is counted. Positions withdrawn before the snapshot do not contribute to the allocation.
+Only voting power held at the snapshot is counted.<br />Positions withdrawn before the snapshot do not contribute to the allocation.
 
 ## **Allocation Calculation**
 
@@ -82,12 +73,14 @@ The DAO Portal displays an estimated staking APY based on:
 
 As more DEUS is staked, the share allocated to each position adjusts.
 
+Early participants initially share the incentive pool among fewer participants, while their positions continue to accumulate multiplier weight throughout the activation period.
+
 ## **Distribution**
 
 Allocations are distributed through the [**Aragon OSx Capital Distributor**](https://github.com/aragon/osx-capital-distributor).
 
-- **Snapshot:** November 15, 2026 at 13:00 UTC
-- **Vesting start:** November 20, 2026 at 13:00 UTC (5 days after program end)
+- **Snapshot:** August 16, 2026 at 13:00 UTC
+- **Vesting start:** August 21, 2026 at 13:00 UTC (5 days after program end)
 - **Vesting duration:** 30 days (linear)
 
 After the snapshot:
@@ -106,8 +99,8 @@ To receive an allocation:
 - DEUS must be staked through the [Stake page on the DAO Portal](https://dao.xmaquina.io/stake) before the snapshot
 - The xDEUS position must remain active and held by the same wallet at the snapshot
 
-Withdrawing a staking position before the snapshot removes its governance weight from the allocation calculation and forfeits its allocation.
+Withdrawing a position before the snapshot removes its voting power from the calculation and forfeits its allocation.
 
 ## **Additional Information**
 
-For full details on governance mechanics, including voting, proposal execution, and multiplier design, refer to the [Governance Documentation](https://docs.xmaquina.io/dao/governance). Program II uses the same continuous governance model as Program I.
+For full details on governance mechanics, including voting, proposal execution, and multiplier design, refer to the [Governance Documentation](https://docs.xmaquina.io/dao/governance).
