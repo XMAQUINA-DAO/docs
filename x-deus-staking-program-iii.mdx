@@ -1,3 +1,113 @@
 ---
 title: "xDEUS Staking Program III"
 ---
+
+A fixed DEUS incentive pool allocated to xDEUS holders during the third xDEUS staking program.
+
+Following the completion of [xDEUS Staking Program II](https://docs.xmaquina.io/dao/staking-activation-program-2), a further 1,000,000 DEUS has been allocated to xDEUS holders participating in the third 90-day program. Existing staking positions remain active and retain their accumulated governance and reward weight throughout the program.
+
+Staking is available through the [Stake page on the DAO Portal](https://dao.xmaquina.io/stake), where users mint xDEUS and track estimated rewards in real time.
+
+## Incentive Pool
+
+- **Total allocation:** 1,000,000 DEUS
+- **Reward token:** DEUS
+- **Distribution:** Vested following the program period
+
+The incentive pool is fixed. No additional DEUS will be emitted.
+
+## Program Period
+
+The program runs for 90 days.
+
+- **Start:** November 20, 2026 at 13:00 UTC
+- **End:** February 18, 2027 at 13:00 UTC
+
+During this period:
+
+- Participants stake DEUS and mint xDEUS.
+- Voting power accrues based on the [veToken multiplier](https://docs.xmaquina.io/dao/xdeus).
+- Existing staking positions retain their accumulated governance weight and continue accruing multiplier weight.
+- New staking positions begin accruing multiplier weight from the time they are created.
+
+Because governance weight increases with staking duration, earlier and longer-held positions receive a larger share of the final allocation.
+
+## Existing Staking Positions
+
+Existing staking positions automatically continue into Program III. No migration, unstaking or restaking is required.
+
+Staking positions retain their accumulated governance weight and continue accruing multiplier weight while they remain active.
+
+## Snapshot
+
+A single voting power snapshot is taken on the Base network at:
+
+- **February 18, 2027 at 13:00 UTC**
+
+The snapshot records:
+
+- Each wallet's multiplier-weighted voting power.
+- The total voting power across all active xDEUS positions.
+
+Only voting power held at the snapshot is counted. Positions withdrawn before the snapshot do not contribute to the allocation.
+
+## Allocation Calculation
+
+Each participant's share of the incentive pool is calculated as:
+
+**User Voting Power ÷ Total Voting Power**
+
+This ratio is applied to the 1,000,000 DEUS pool to determine the participant's final allocation.
+
+Example:
+
+If the snapshot records:
+
+- Total voting power: 10,000,000
+- User voting power: 100,000
+
+Then:
+
+- Share: 100,000 ÷ 10,000,000 = 1%
+- Allocation: 1% × 1,000,000 DEUS = 10,000 DEUS
+
+## Estimated Staking APY
+
+The DAO Portal displays an estimated staking APY based on:
+
+- The fixed incentive pool.
+- Total xDEUS participation.
+
+As more DEUS is staked, the share allocated to each position adjusts.
+
+## Distribution
+
+Allocations are distributed through the Aragon OSx Capital Distributor.
+
+- **Snapshot:** February 18, 2027 at 13:00 UTC
+- **Vesting start:** February 23, 2027 at 13:00 UTC (5 days after program end)
+- **Vesting duration:** 30 days (linear)
+
+After the snapshot:
+
+- Final allocations are calculated from onchain voting power data.
+- A distribution contract is deployed onchain.
+- Allocations begin vesting at the time specified above.
+- Participants claim vested allocations through the DAO Portal.
+
+All allocations are verifiable onchain and tied to the wallet holding the xDEUS position at the snapshot.
+
+## Eligibility
+
+To receive an allocation:
+
+- DEUS must be staked through the [Stake page on the DAO Portal ](https://docs.xmaquina.io/dao/xdeus)before the snapshot.
+- The xDEUS position must remain active and held by the same wallet at the snapshot.
+
+Withdrawing a staking position before the snapshot removes its governance weight from the allocation calculation and forfeits its allocation.
+
+## Additional Information
+
+For full details on governance mechanics, including voting, proposal execution and multiplier design, refer to the [Governance Documentation](https://docs.xmaquina.io/dao/governance).
+
+Program III uses the same continuous governance model as Programs I and II.
