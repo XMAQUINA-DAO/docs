@@ -83,7 +83,8 @@
             "group": "Legal",
             "pages": [
               "dao/formation",
-              "auctions/terms"
+              "auctions/terms",
+              "auctions/terms-2"
             ]
           }
         ]
