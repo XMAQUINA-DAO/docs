@@ -84,8 +84,8 @@
             "pages": [
               "dao/formation",
               "auctions/terms",
-              "auctions/terms-2",
-              "auctions/terms-3"
+              "auctions/terms-and-conditions",
+              "auctions/privacy-notice"
             ]
           }
         ]
